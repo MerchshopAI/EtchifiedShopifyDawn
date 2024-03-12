@@ -37,6 +37,179 @@
 
     {{ content_for_header }}
 
+    <script>
+      (function () {
+              function getCheckoutButtons() {
+                  return Array.from(document.querySelectorAll('[name=checkout], [href*=checkout]:not([href*=\'/tools/checkout/front_end/login\']), [action*=checkout] [type=submit], [onclick*=checkout], .additional-checkout-button:not(.additional-checkout-button--apple-pay)'));
+              }
+
+              function getCart(callback) {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', '/cart.json', true);
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.setRequestHeader('Content-Type', 'application/json');
+      		  xhr.onreadystatechange = function() {
+                    if (this.readyState === XMLHttpRequest.DONE && this.status === 200 && callback) {
+                        callback(JSON.parse(xhr.responseText));
+                    }
+                }
+
+
+                xhr.send();
+              }
+
+              function variantsToHave(item) {
+                  return item.properties && item.properties['_configurationVariants'] && JSON.parse(item.properties['_configurationVariants']) || [];
+              }
+
+              function handleQty(qty, variants) {
+                  return [].concat.apply([], Array(qty).fill(variants));
+              }
+
+              function getVariants(items) {
+                  return items.reduce((acc, val) => acc.concat(val), []).reduce(function (acc, variant) {
+                      acc[variant] = (acc[variant] || 0) + 1;
+                      return acc;
+                  }, {});
+              }
+
+              function diff(toHave, current) {
+                  return Object.keys(toHave).reduce(function (acc, item) {
+                      acc[item] = toHave[item] - (current[item] || 0);
+                      return acc;
+                  }, {});
+              }
+
+              function nonZeroQty(cartDiff) {
+                  return Object.keys(cartDiff).reduce(function (acc, item) {
+                      if (cartDiff[item]) {
+                          acc[item] = cartDiff[item];
+                      }
+
+                      return acc;
+                  }, {});
+              }
+
+              function zeroQty(cartDiff) {
+                  return Object.keys(cartDiff).reduce(function (acc, item) {
+                      acc[item] = 0;
+
+                      return acc;
+                  }, {});
+              }
+
+              function asCartUpdate(cartDiff) {
+                  return {
+                      updates: cartDiff
+                  };
+              }
+
+              function updateCart(toUpdate, callback) {
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '/cart/update.js', true);
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.setRequestHeader('Content-Type', 'application/json');
+      		  xhr.onreadystatechange = function() {
+                    if (this.readyState === XMLHttpRequest.DONE && this.status === 200 && callback) {
+                        callback();
+                    }
+                }
+
+
+                xhr.send(JSON.stringify(toUpdate));
+              }
+
+              function toUpdate(cart) {
+                  var variants = getVariants(cart.items.map(function (item) {
+                      return handleQty(item.quantity, variantsToHave(item));
+                  }));
+                  var currentVariants = cart.items.filter(function (item) {
+                      return Object.keys(variants).map(function (id) {
+                          return Number.parseInt(id);
+                      }).includes(item.id);
+                  }).reduce(function (acc, item) {
+                      acc[item.id] = item.quantity;
+                      return acc;
+                  }, {});
+
+                  return diff(variants, currentVariants);
+              }
+
+              function toUpdateZero(cart) {
+                  var variants = getVariants(cart.items.map(function (item) {
+                      return handleQty(item.quantity, variantsToHave(item));
+                  }));
+                  var currentVariants = cart.items.filter(function (item) {
+                      return Object.keys(variants).map(function (id) {
+                          return Number.parseInt(id);
+                      }).includes(item.id);
+                  }).reduce(function (acc, item) {
+                      acc[item.id] = item.quantity;
+                      return acc;
+                  }, {});
+
+                  return currentVariants;
+              }
+
+              function needUpdate(update) {
+                  return Object.keys(update.updates).length > 0;
+              }
+
+              function needUpdateZero(update) {
+                  const keys = Object.keys(update.updates);
+                  return keys.length > 0 && keys.every(k => k > 0);
+              }
+
+              function needReload() {
+                  window.location.reload(false);
+              }
+
+              document.addEventListener('DOMContentLoaded', function () {
+                  getCheckoutButtons().forEach(function (button) {
+                      var zakekeHandled = false;
+                      button.addEventListener('click', function (e) {
+                          if (zakekeHandled) {
+                              return;
+                          }
+
+                          e.preventDefault();
+                          getCart(function(cart) {
+                              var cartUpdate = asCartUpdate(nonZeroQty(toUpdate(cart)));
+                              if (needUpdate(cartUpdate)) {
+                                  updateCart(cartUpdate, function () {
+                                      zakekeHandled = true;
+                                      e.target.click();
+                                  });
+                              } else {
+                              	zakekeHandled = true;
+                                  e.target.click();
+                              }
+                          });
+                      });
+                  });
+              });
+
+
+            if (!window.location.pathname.includes('/cart')) {
+              getCart(function(cart) {
+                var cartUpdate = asCartUpdate(nonZeroQty(toUpdate(cart)));
+                if (needUpdate(cartUpdate)) {
+                  updateCart(cartUpdate);
+                }
+              });
+            } else {
+              getCart(function (cart) {
+                  var cartUpdate = asCartUpdate(zeroQty(toUpdateZero(cart)));
+                  if (needUpdate(cartUpdate)) {
+                      updateCart(cartUpdate, needReload);
+                  }
+              });
+
+            }
+          })();
+    </script>
+    {% render 'zakeke-customizer-price', product: all_products.customization %}
+
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
@@ -254,14 +427,10 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
-      {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-      {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-      {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
@@ -284,7 +453,8 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  </head>
+  {% render 'gp-head' %}
+</head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">

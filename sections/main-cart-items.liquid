@@ -85,8 +85,15 @@
                         {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
                         <a href="{{ item.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1"> </a>
                         <div class="cart-item__image-container gradient global-media-settings">
+
+                          {%- if item.properties._previews -%}
+                            {%- assign item_img = item.properties._previews -%}
+                          {%- else -%}
+                            {%- assign item_img = item.image | image_url: width: 300 -%}
+                          {%- endif -%}
+                          
                           <img
-                            src="{{ item.image | image_url: width: 300 }}"
+                            src="{{ item_img }}"
                             class="cart-item__image"
                             alt="{{ item.image.alt | escape }}"
                             loading="lazy"
@@ -110,18 +117,18 @@
                             {{ 'products.product.price.regular_price' | t }}
                           </span>
                           <s class="cart-item__old-price product-option">
-                            {{- item.original_price | money -}}
+                            {% render 'zakeke-cart-item-price', item: item, item_price: item.original_price %}
                           </s>
                           <span class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </span>
                           <strong class="cart-item__final-price product-option">
-                            {{ item.final_price | money }}
+                            {% render 'zakeke-cart-item-price', item: item, item_price: item.final_price %}
                           </strong>
                         </div>
                       {%- else -%}
                         <div class="product-option">
-                          {{ item.original_price | money }}
+                          {% render 'zakeke-cart-item-price', item: item, item_price: item.original_price %}
                         </div>
                       {%- endif -%}
 
@@ -158,6 +165,8 @@
                           {%- endfor -%}
                         </dl>
 
+                        {% render 'zakeke-cart-item-properties', item: item %}
+                        {% render 'zakeke-cart-item-edit', item: item %}
                         <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
                       {%- endif -%}
 
@@ -181,19 +190,19 @@
                             </dt>
                             <dd>
                               <s class="cart-item__old-price price price--end">
-                                {{ item.original_line_price | money }}
+                                {% render 'zakeke-cart-line-price', item: item, line_price: item.original_line_price %}
                               </s>
                             </dd>
                             <dt class="visually-hidden">
                               {{ 'products.product.price.sale_price' | t }}
                             </dt>
                             <dd class="price price--end">
-                              {{ item.final_line_price | money }}
+                              {% render 'zakeke-cart-line-price', item: item, line_price: item.final_line_price %}
                             </dd>
                           </dl>
                         {%- else -%}
                           <span class="price price--end">
-                            {{ item.original_line_price | money }}
+                            {% render 'zakeke-cart-line-price', item: item, line_price: item.original_line_price %}
                           </span>
                         {%- endif -%}
 
