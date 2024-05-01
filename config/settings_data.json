@@ -292,6 +292,12 @@
         "settings": {
           "async": false
         }
+      },
+      "5163884144194077907": {
+        "type": "shopify:\/\/apps\/sami-b2b-lock\/blocks\/app-embed\/8d86a3b4-97b3-44ab-adc1-ec01c5a89da9",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
