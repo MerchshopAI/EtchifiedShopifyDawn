@@ -74,6 +74,7 @@
         },
         "custom_liquid_N69PT7": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design From Scratch<\/span>\n<\/button>\n<script>\n    document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    let rootUrl = '{{ routes.root_url }}';\n    if (rootUrl !== '\/') {\n      rootUrl = rootUrl + '\/';\n    }\n    window.location.href = rootUrl + 'apps\/zakeke\/?pid={{ product.id }}&id=' + document.querySelector('select[name=id], input[name=id]').value;\n});\n<\/script>"
           }
