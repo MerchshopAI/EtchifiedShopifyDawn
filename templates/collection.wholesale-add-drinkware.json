@@ -347,8 +347,8 @@
         "button_RNdm6r": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Send an Inquiry",
+            "button_link": "shopify:\/\/pages\/contact-us",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
