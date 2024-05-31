@@ -72,10 +72,34 @@
       },
       "blocks": {
       }
+    },
+    "6f9b1d00-75ab-428f-9c95-5fe3aa60958b": {
+      "settings": {
+      },
+      "blocks": {
+        "template--16826052018432__6f9b1d00-75ab-428f-9c95-5fe3aa60958b-heading-1": {
+          "settings": {
+            "heading": "All of our Products have Volume Pricing"
+          }
+        },
+        "template--16826052018432__6f9b1d00-75ab-428f-9c95-5fe3aa60958b-text-1": {
+          "settings": {
+            "text": "<p>All of our Design-Online products have volume pricing already applied - simply make your design, and add the items to the cart. All of the same items with the same design will have volume pricing applied in the shopping cart.<br\/>If you require some further assistance with pricing or artwork, please feel free to contact us using the link below.<\/p>"
+          }
+        },
+        "template--16826052018432__6f9b1d00-75ab-428f-9c95-5fe3aa60958b-button-1": {
+          "disabled": false,
+          "settings": {
+            "button_label": "Inquire Now",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        }
+      }
     }
   },
   "order": [
     "cdfc1dd8-c329-4cc2-b349-a8497d80faf7",
+    "6f9b1d00-75ab-428f-9c95-5fe3aa60958b",
     "501019d2-b83a-4db5-b91e-92522a66d5a5",
     "banner",
     "product-grid",
