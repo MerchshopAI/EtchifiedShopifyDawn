@@ -29,7 +29,7 @@
       "type": "image-banner",
       "disabled": false,
       "settings": {
-        "image": null,
+        "image": "shopify:\/\/shop_images\/LTM866_Yellow_YourLogoHere4-PhotoRoom_1.jpg",
         "image_2": null,
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -112,8 +112,8 @@
           "type": "button",
           "disabled": false,
           "settings": {
-            "button_label": "Inquire Now",
-            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_label": "Shop Drinkware",
+            "button_link": "shopify:\/\/collections\/drinkware",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
