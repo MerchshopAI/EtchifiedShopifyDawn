@@ -4,5 +4,38 @@
     "market": "canada"
   },
   "sections": {
-  }
+    "ce73b179-2676-4a05-9e6e-07e69d6fabe7": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "6f9b1d00-75ab-428f-9c95-5fe3aa60958b": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "product-grid": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
+  },
+  "order": [
+    "af378ca3-b9eb-4522-acc1-c5b2c25e73cb",
+    "501019d2-b83a-4db5-b91e-92522a66d5a5",
+    "banner",
+    "43c4ee29-418c-42e5-9edd-b9cba9d97571",
+    "66f6ce21-50bd-47f7-b588-3459047ed2b5",
+    "6f9b1d00-75ab-428f-9c95-5fe3aa60958b",
+    "ce73b179-2676-4a05-9e6e-07e69d6fabe7",
+    "product-grid",
+    "ef8bff8a-8e12-498e-8ee1-da46cd71cda9",
+    "1693398378938e5771"
+  ]
 }

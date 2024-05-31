@@ -1,8 +1,0 @@
-{
-  "parent": "product.wholesale-add-to-cart.json",
-  "context": {
-    "market": "canada"
-  },
-  "sections": {
-  }
-}
