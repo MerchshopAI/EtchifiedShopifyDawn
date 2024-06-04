@@ -29,6 +29,7 @@
         },
         "bbe5a2b4-ce77-47dd-aea4-714efe90015f": {
           "type": "shopify:\/\/apps\/swatch-king-combined-listings\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+          "disabled": true,
           "settings": {
           }
         },
@@ -85,6 +86,7 @@
         },
         "swatch_king_variants_options_product_swatch_block_bty3nY": {
           "type": "shopify:\/\/apps\/swatch-king-combined-listings\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+          "disabled": true,
           "settings": {
           }
         }
