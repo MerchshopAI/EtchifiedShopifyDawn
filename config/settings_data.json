@@ -276,16 +276,6 @@
         "settings": {
         }
       },
-      "starapps-vsk": {
-        "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/variant-swatch-king\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
-        "disabled": false,
-        "settings": {
-          "alignment": "left",
-          "swatch_location": "After price",
-          "switch_on_hover": true,
-          "preselect_variant": false
-        }
-      },
       "5149645339031002760": {
         "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
@@ -297,6 +287,16 @@
         "type": "shopify:\/\/apps\/sami-b2b-lock\/blocks\/app-embed\/8d86a3b4-97b3-44ab-adc1-ec01c5a89da9",
         "disabled": false,
         "settings": {
+        }
+      },
+      "starapps-vsk": {
+        "type": "shopify:\/\/apps\/swatch-king-combined-listings\/blocks\/variant-swatch-king\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+        "disabled": false,
+        "settings": {
+          "alignment": "left",
+          "swatch_location": "After price",
+          "switch_on_hover": true,
+          "preselect_variant": false
         }
       }
     },
