@@ -27,11 +27,6 @@
             "custom_liquid": "{{ 'Design Now' | link_to: product.metafields.custom.customizer_url, class: 'product-form__submit button button--full-width button--secondary' }}"
           }
         },
-        "bbe5a2b4-ce77-47dd-aea4-714efe90015f": {
-          "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -42,6 +37,13 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons_3AxH9d": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
           }
         },
         "quantity_selector": {
@@ -58,13 +60,6 @@
             "icon": "none",
             "content": "{{ product.metafields.custom.description | metafield_tag }}",
             "page": ""
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
           }
         },
         "custom_liquid_N69PT7": {
@@ -84,11 +79,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "swatch_king_variants_options_product_swatch_block_bty3nY": {
-          "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -96,16 +86,14 @@
         "title",
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
         "066e02bb-1a0f-462c-9f85-2294cfe6fdeb",
-        "bbe5a2b4-ce77-47dd-aea4-714efe90015f",
         "price",
         "variant_picker",
+        "buy_buttons_3AxH9d",
         "quantity_selector",
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
-        "buy_buttons",
         "custom_liquid_N69PT7",
         "description",
-        "share",
-        "swatch_king_variants_options_product_swatch_block_bty3nY"
+        "share"
       ],
       "custom_css": [
         "button.product-form__submit.button.button--full-width.button--secondary {background: #ffa842 !important; color: Black !important;}",
