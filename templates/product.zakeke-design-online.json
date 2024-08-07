@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -39,7 +48,7 @@
           }
         },
         "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify:\/\/apps\/volumeboost-volume-discounts\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
+          "type": "shopify:\/\/apps\/volume-discounts\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
           "settings": {
           }
         },
