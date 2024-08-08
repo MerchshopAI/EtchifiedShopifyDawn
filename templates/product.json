@@ -53,6 +53,11 @@
             "swatch_shape": "circle"
           }
         },
+        "easify_options_easify_product_options_p6PfdA": {
+          "type": "shopify:\/\/apps\/easify-options\/blocks\/easify-product-options\/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+          "settings": {
+          }
+        },
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -95,6 +100,7 @@
         "price",
         "quantity_selector",
         "variant_picker",
+        "easify_options_easify_product_options_p6PfdA",
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
         "d77d042a-7232-4ef3-9874-35307fe9f156",
         "buy_buttons",
