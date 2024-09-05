@@ -106,7 +106,7 @@
             enable_filtering: section.settings.enable_filtering,
             enable_sorting: section.settings.enable_sorting,
             filter_type: section.settings.filter_type,
-           paginate: none
+           paginate: paginate
            
           %}
         </aside>
@@ -170,7 +170,6 @@
                 </li>
               {%- endfor -%}
             </ul>
-
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
@@ -179,6 +178,7 @@
       </div>
     </div>
   {%- endpaginate -%}
+         
   {% if section.settings.image_shape == 'arch' %}
     {% render 'mask-arch' %}
   {%- endif -%}
