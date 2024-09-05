@@ -170,7 +170,7 @@
               {%- endfor -%}
             </ul>
 
-            {%- if paginate.pages > 4 -%}
+            {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
           </div>
