@@ -170,7 +170,7 @@
                 </li>
               {%- endfor -%}
             </ul>
-            {%- if paginate.pages > 1 -%}
+            {%- if paginate.pages > 10 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
           </div>
