@@ -1,3 +1,4 @@
+{% comment %}
 {% assign configuration = item.properties._configuration | default: 0 %}
 {% if configuration != 0 %}
 	<a  data-hulkapps-lineitem href="/apps/zakeke/c/{{ item.product.handle }}?variant={{ item.variant.id }}&composition={{ configuration }}" class="btn btn--small btn--secondary cart__remove">Edit</a>
@@ -7,3 +8,4 @@
 {% if customization != 0 %}
 	<a  data-hulkapps-lineitem href="/apps/zakeke?pid={{ item.product_id }}&design={{ customization }}&quantity={{ item.quantity }}" class="btn btn--small btn--secondary cart__remove">Edit</a>
 {% endif %}
+{% endcomment %}
