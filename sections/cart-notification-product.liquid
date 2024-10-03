@@ -27,7 +27,7 @@
             {%- endfor -%}
           {%- endunless -%}
 <div class='hulkapps-reminder' data-key='{{item.key}}'></div><span >
-<span data-hulkapps-line-properties>
+<span  data-hulkapps-line-properties >
           {%- for property in item.properties -%}
             {%- assign property_first_char = property.first | slice: 0 -%}
             {%- if property.last != blank and property_first_char != '_' -%}
@@ -47,6 +47,7 @@
           {%- endfor -%}
 </span>
 <button type='button' style='display: none;' class='edit_cart_option btn btn--primary button' data-product_id='{{item.product_id}}' data-key='{{item.key}}' data-variant_id='{{item.variant_id}}' data-quantity='{{item.quantity}}'>Edit Options</button>
+
 </span>
 
         </dl>

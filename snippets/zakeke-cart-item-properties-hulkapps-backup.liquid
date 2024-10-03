@@ -1,4 +1,4 @@
-<div class='hulkapps-reminder' data-key='{{item.key}}'></div><span data-hulkapps-line-properties>
+<div  data-hulkapps-lineitem class='hulkapps-reminder' data-key='{{item.key}}'></div><span data-hulkapps-line-properties>
 {% for p in item.properties %}
   {% assign property_prefix = p.first | slice: 0 %}
   {% unless p.last == blank or property_prefix == '_' or p.first == 'Preview' %}
@@ -16,13 +16,13 @@
 {% endunless %}
 {% endfor %}
 </span>
-<button type='button' style='display: none;' class='edit_cart_option btn btn--primary button' data-product_id='{{item.product_id}}' data-key='{{item.key}}' data-variant_id='{{item.variant_id}}' data-quantity='{{item.quantity}}'>Edit Options</button>
+<button  data-hulkapps-lineitem type='button' style='display: none;' class='edit_cart_option btn btn--primary button' data-product_id='{{item.product_id}}' data-key='{{item.key}}' data-variant_id='{{item.variant_id}}' data-quantity='{{item.quantity}}'>Edit Options</button>
 
 {% if item.properties._previews %}
     {% assign previews = item.properties._previews | split: ',' %}
     {% if previews.size > 0 %}
   	<div  data-hulkapps-lineitem class="glide zakeke-cart-previews" style="width: 260px">
-    <div class="glide__track" data-glide-el="track">
+    <div  data-hulkapps-lineitem class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
         {% for preview in previews %}
           {% assign preview_url = preview | split: '#' | first %}
@@ -36,7 +36,7 @@
         {% endfor %}
       </ul>
     </div>
-      <div data-glide-el="controls">
+      <div  data-hulkapps-lineitem data-glide-el="controls">
         <button class="slider__arrow prev glide__arrow" data-glide-dir="<">
           <svg xmlns ="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
             <path d ="M0 12l10.975 11 2.848-2.828-6.176-6.176H24v-3.992H7.646l6.176-6.176L10.975 1 0 12z"></path>
