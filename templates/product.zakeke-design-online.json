@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -25,7 +25,7 @@
           }
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -44,11 +44,16 @@
         "41e07029-718d-4729-a821-314a2d1e34ce": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design Now<\/span>\n<\/button>\n<script>\n    document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    let rootUrl = '{{ routes.root_url }}';\n    if (rootUrl !== '\/') {\n      rootUrl = rootUrl + '\/';\n    }\n    window.location.href = rootUrl + 'apps\/zakeke\/?pid={{ product.id }}&id=' + document.querySelector('select[name=id], input[name=id]').value;\n});\n<\/script>"
+            "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design Now</span>\n</button>\n<script>\n    document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    let rootUrl = '{{ routes.root_url }}';\n    if (rootUrl !== '/') {\n      rootUrl = rootUrl + '/';\n    }\n    window.location.href = rootUrl + 'apps/zakeke/?pid={{ product.id }}&id=' + document.querySelector('select[name=id], input[name=id]').value;\n});\n</script>"
+          }
+        },
+        "discount_ninja_discountninja_app_blocks_product_banner_WP3VE7": {
+          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {
           }
         },
         "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify:\/\/apps\/volume-discounts\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
+          "type": "shopify://apps/volume-discounts/blocks/offer_table_block/25745434-52e7-4378-88f1-890df18a0110",
           "settings": {
           }
         },
@@ -82,7 +87,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{% unless product.content contains 'zakeke-design-tag' %}\n{% if product.tags contains 'zakeke-product' or product.content contains 'zakeke-product-tag' %}\n<button id=\"zakeke-product-button-custom\" class=\"btn button\">\n\t<span>Customize<\/span>\n<\/button>\n<script>\n\t(function () {\n\t\tconst btn = document.querySelector(\"#zakeke-product-button-custom\");\n\t\tbtn.addEventListener(\"click\", function (event) {\n\t\t\tevent.preventDefault();\n\t\t\tevent.stopPropagation();\n\t\t\tconst url = new URL(window.location.href);\n\t\t\tconst variant = url.searchParams.get('variant');\n\t\t\t\n\t\t\tlet rootUrl = '{{ routes.root_url }}';\n\t\t\tif (rootUrl === '\/') {\n\t\t\t\trootUrl = '';\n\t\t\t}\n\t\t\t\n\t\t\tconst zakekeUrl = new URL(rootUrl + (window.zakekeUrl || \"\/apps\/zakeke\") + '?pid={{ product.id }}', document.location);\n\n\t\t\tif (variant) {\n\t\t\t\tzakekeUrl.searchParams.set('id', variant);\n\t\t\t}\n\n\t\t\twindow.location.href = zakekeUrl.toString();\n\t\t});\n\t})();\n<\/script>\n<style>\n\t#zakeke-product-button {\n\t\tdisplay: none;\n\t}\n<\/style>\n{% endif %}\n{% endunless %}"
+            "custom_liquid": "{% unless product.content contains 'zakeke-design-tag' %}\n{% if product.tags contains 'zakeke-product' or product.content contains 'zakeke-product-tag' %}\n<button id=\"zakeke-product-button-custom\" class=\"btn button\">\n\t<span>Customize</span>\n</button>\n<script>\n\t(function () {\n\t\tconst btn = document.querySelector(\"#zakeke-product-button-custom\");\n\t\tbtn.addEventListener(\"click\", function (event) {\n\t\t\tevent.preventDefault();\n\t\t\tevent.stopPropagation();\n\t\t\tconst url = new URL(window.location.href);\n\t\t\tconst variant = url.searchParams.get('variant');\n\t\t\t\n\t\t\tlet rootUrl = '{{ routes.root_url }}';\n\t\t\tif (rootUrl === '/') {\n\t\t\t\trootUrl = '';\n\t\t\t}\n\t\t\t\n\t\t\tconst zakekeUrl = new URL(rootUrl + (window.zakekeUrl || \"/apps/zakeke\") + '?pid={{ product.id }}', document.location);\n\n\t\t\tif (variant) {\n\t\t\t\tzakekeUrl.searchParams.set('id', variant);\n\t\t\t}\n\n\t\t\twindow.location.href = zakekeUrl.toString();\n\t\t});\n\t})();\n</script>\n<style>\n\t#zakeke-product-button {\n\t\tdisplay: none;\n\t}\n</style>\n{% endif %}\n{% endunless %}"
           }
         },
         "share": {
@@ -99,6 +104,7 @@
         "price",
         "variant_picker",
         "41e07029-718d-4729-a821-314a2d1e34ce",
+        "discount_ninja_discountninja_app_blocks_product_banner_WP3VE7",
         "d77d042a-7232-4ef3-9874-35307fe9f156",
         "buy_buttons",
         "description",
@@ -148,7 +154,7 @@
       "type": "apps",
       "blocks": {
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
