@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -25,7 +25,7 @@
           }
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -54,7 +54,7 @@
           }
         },
         "easify_options_easify_product_options_p6PfdA": {
-          "type": "shopify:\/\/apps\/easify-options\/blocks\/easify-product-options\/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+          "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
           "settings": {
           }
         },
@@ -69,7 +69,7 @@
           }
         },
         "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify:\/\/apps\/volume-discounts\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
+          "type": "shopify://apps/volume-discounts/blocks/offer_table_block/25745434-52e7-4378-88f1-890df18a0110",
           "settings": {
           }
         },
@@ -90,6 +90,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_UUr6jR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.wholesale.minimum.quantity %}\n  <p class=\"minimum-quantity\">\n    Minimum Order Quantity: {{ product.metafields.wholesale.minimum.quantity }}\n  </p>\n{% else %}\n  <p class=\"minimum-quantity\">\n    No minimum quantity set for this product.\n  </p>\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -105,7 +111,8 @@
         "d77d042a-7232-4ef3-9874-35307fe9f156",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_UUr6jR"
       ],
       "custom_css": [
         "button.product-form__submit.button.button--full-width.button--secondary {background: #ffa842 !important; color: Black !important;}",
@@ -149,7 +156,7 @@
       "type": "apps",
       "blocks": {
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
