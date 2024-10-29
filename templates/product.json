@@ -32,7 +32,7 @@
         "custom_liquid_UUr6jR": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.wholesale.minimum_quantity != 1 -%}\n        <p>Minimum Qty: {{ product.metafields.wholesale.minimum_quantity }}</p>\n        {%- endif -%}"
+            "custom_liquid": "{%- if product.metafields.wholesale.minimum_quantity > 1 -%}\n        <p>Minimum Qty: {{ product.metafields.wholesale.minimum_quantity }}</p>\n        {%- endif -%}"
           }
         },
         "066e02bb-1a0f-462c-9f85-2294cfe6fdeb": {
