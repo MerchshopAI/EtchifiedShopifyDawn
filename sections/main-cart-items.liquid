@@ -110,7 +110,8 @@
                       {%- endif -%}
 
                       <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
-
+<div class="limoniapps-discountninja-cart-item-product-comment" data-limoniapps-discountninja-cart-key="{{item.key}}"></div>
+                      <span class="limoniapps-discountninja-cart-item-product-price" data-limoniapps-discountninja-cart-key="{{item.key}}">
                       {%- if item.original_price != item.final_price -%}
                         <div class="cart-item__discounted-prices">
                           <span class="visually-hidden">
@@ -131,7 +132,7 @@
                           {% render 'zakeke-cart-item-price', item: item, item_price: item.original_price %}
                         </div>
                       {%- endif -%}
-
+</span>
                       {%- if item.product.has_only_default_variant == false
                         or item.properties.size != 0
                         or item.selling_plan_allocation != null
@@ -145,7 +146,7 @@
                               </div>
                             {%- endfor -%}
                           {%- endif -%}
-
+                        
 <div class='hulkapps-reminder' data-key='{{item.key}}'></div><span >
 <span >
                           {%- for property in item.properties -%}
