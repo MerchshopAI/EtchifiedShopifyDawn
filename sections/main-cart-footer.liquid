@@ -57,10 +57,13 @@
                     </ul>
                   {%- endif -%}
                 </div>
+                {% comment %}Added/Modified by Limoni Apps on 29/10/24 to support Discount Ninja{% endcomment %}
 
-                <div class="totals">
+	<div class="limoniapps-discountninja-cart-promotionsummary"></div>
+                <div class="limoniapps-discountninja-cartdiscountfield-placeholder"></div>
+                <div class="totals limoniapps-discountninja-cart-subtotal">
                   <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
-                  <p  data-hulkapps-cart-total class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
+                  <p  data-hulkapps-cart-total class="totals__total-value limoniapps-discountninja-cart-subtotal-price">{{ cart.total_price | money_with_currency }}</p>
                 </div>
 
                 <small class="tax-note caption-large rte">
