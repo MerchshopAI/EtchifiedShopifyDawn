@@ -45,24 +45,12 @@
           "type": "subtotal",
           "settings": {
           }
-        },
-        "discount_ninja_discountninja_app_blocks_cart_promotioncode_field_rUD6i3": {
-          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-cart-promotioncode-field/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-          "settings": {
-          }
-        },
-        "discount_ninja_discountninja_app_blocks_cart_promotion_summary_GRknDG": {
-          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-cart-promotion-summary/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "1e2ebe02-4fb3-476f-ba90-b21e5d6804ab",
         "buttons",
-        "subtotal",
-        "discount_ninja_discountninja_app_blocks_cart_promotioncode_field_rUD6i3",
-        "discount_ninja_discountninja_app_blocks_cart_promotion_summary_GRknDG"
+        "subtotal"
       ],
       "settings": {
         "color_scheme": "",
