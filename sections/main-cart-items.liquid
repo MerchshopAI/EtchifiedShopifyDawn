@@ -257,7 +257,7 @@
                                 {% render 'icon-info' %}
                               </button>
                             {%- endif -%}
-                            <quantity-input class="quantity cart-quantity">
+                            <quantity-input class="quantity cart-quantity limoniapps-discountninja-cart-item-quantity" data-limoniapps-discountninja-cart-key="{{item.key}}">
                               <button class="quantity__button no-js-hidden" name="minus" type="button">
                                 <span class="visually-hidden">
                                   {{- 'products.product.quantity.decrease' | t: product: item.product.title | escape -}}
