@@ -214,6 +214,7 @@ class="card-wrapper product-card-wrapper underline-links-hover">
               {%- if card_product.metafields.wholesale.minimum_quantity > 1 -%}
         <p>Minimum Qty: {{ card_product.metafields.wholesale.minimum_quantity }}</p>
         {%- endif -%}
+{% comment %}Added/Modified by Limoni Apps on 29/10/24 to support Discount Ninja{% endcomment %}
 
          <span class="limoniapps-discountninja-productprice">   {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}</span>
             {%- if card_product.quantity_price_breaks_configured? -%}
