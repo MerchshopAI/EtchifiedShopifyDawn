@@ -212,7 +212,6 @@
         "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-3",
         "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-4"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "FAQ",
@@ -233,6 +232,17 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "page_mpedUc": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -240,6 +250,7 @@
     "related-products",
     "1693398513cc258c5a",
     "5e239c6a-4fe3-4bde-8826-86daa4bce642",
-    "1706656671601d943c"
+    "1706656671601d943c",
+    "page_mpedUc"
   ]
 }
