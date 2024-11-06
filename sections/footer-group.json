@@ -11,15 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_RTyemc": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"cart_refresh_btn text-right\">\n    <button onclick=\"window.location.reload();\" class=\"btn\">\n        Update Cart\n    </button>\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -62,7 +53,6 @@
     }
   },
   "order": [
-    "custom_liquid_RTyemc",
     "footer"
   ]
 }
