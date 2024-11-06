@@ -265,13 +265,6 @@
         "settings": {
         }
       },
-      "5149645339031002760": {
-        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
-        "disabled": true,
-        "settings": {
-          "async": false
-        }
-      },
       "11104565113590962351": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
@@ -318,6 +311,13 @@
         "type": "shopify://apps/easify-options/blocks/app-embed-block/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
         "disabled": false,
         "settings": {
+        }
+      },
+      "5149645339031002760": {
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "disabled": false,
+        "settings": {
+          "async": false
         }
       }
     },
