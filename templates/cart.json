@@ -17,6 +17,15 @@
         "padding_bottom": 0
       }
     },
+    "custom_liquid_Cxjfnr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"cart__checkout-button\">\n    <button onclick=\"window.location.reload();\" class=\"button button--primary\">\n        Refresh Cart\n    </button>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -44,6 +53,7 @@
   },
   "order": [
     "cart-items",
+    "custom_liquid_Cxjfnr",
     "cart-footer"
   ]
 }
