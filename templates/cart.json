@@ -20,22 +20,6 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
-        "1e2ebe02-4fb3-476f-ba90-b21e5d6804ab": {
-          "type": "shopify://apps/volume-discounts/blocks/payment_settings_block/25745434-52e7-4378-88f1-890df18a0110",
-          "settings": {
-            "payment_message": "Select Payment",
-            "net_label": "Select Issue Date",
-            "fixed_label": "Select Due Date",
-            "validation_message": "Please select issue date.",
-            "other_payment_name": "Other",
-            "label_color": "#777777",
-            "input_text_color": "#000000",
-            "border_color": "#dadada",
-            "max_days": 30,
-            "max_width": 100,
-            "payment_terms_note": "Note: Selection will only be possible with Cash on Delivery payment method."
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -45,12 +29,23 @@
           "type": "subtotal",
           "settings": {
           }
+        },
+        "discount_ninja_discountninja_app_blocks_cart_promotioncode_field_xkEnGq": {
+          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-cart-promotioncode-field/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {
+          }
+        },
+        "discount_ninja_discountninja_app_blocks_cart_promotion_summary_8LeeXd": {
+          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-cart-promotion-summary/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "1e2ebe02-4fb3-476f-ba90-b21e5d6804ab",
         "buttons",
-        "subtotal"
+        "subtotal",
+        "discount_ninja_discountninja_app_blocks_cart_promotioncode_field_xkEnGq",
+        "discount_ninja_discountninja_app_blocks_cart_promotion_summary_8LeeXd"
       ],
       "settings": {
         "color_scheme": "",
