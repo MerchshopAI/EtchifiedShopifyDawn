@@ -33,19 +33,16 @@
             "custom_liquid": "{%- if product.metafields.wholesale.minimum_quantity > 1 -%}\n        <p>Minimum Qty: {{ product.metafields.wholesale.minimum_quantity }}</p>\n        {%- endif -%}"
           }
         },
-        "066e02bb-1a0f-462c-9f85-2294cfe6fdeb": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{{ 'Design Now' | link_to: product.metafields.custom.customizer_url, class: 'product-form__submit button button--full-width button--secondary' }}"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {}
+        },
+        "easify_options_easify_product_options_p6PfdA": {
+          "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
           "settings": {}
         },
         "variant_picker": {
@@ -55,8 +52,15 @@
             "swatch_shape": "circle"
           }
         },
-        "easify_options_easify_product_options_p6PfdA": {
-          "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP": {
+          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
           "settings": {}
         },
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
@@ -67,17 +71,6 @@
             "icon": "none",
             "content": "{{ product.metafields.custom.description | metafield_tag }}",
             "page": ""
-          }
-        },
-        "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify://apps/volume-discounts/blocks/offer_table_block/25745434-52e7-4378-88f1-890df18a0110",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
           }
         },
         "description": {
@@ -96,14 +89,13 @@
         "title",
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
         "custom_liquid_UUr6jR",
-        "066e02bb-1a0f-462c-9f85-2294cfe6fdeb",
         "price",
         "quantity_selector",
-        "variant_picker",
         "easify_options_easify_product_options_p6PfdA",
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
-        "d77d042a-7232-4ef3-9874-35307fe9f156",
+        "variant_picker",
         "buy_buttons",
+        "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
+        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
         "description",
         "share"
       ],
