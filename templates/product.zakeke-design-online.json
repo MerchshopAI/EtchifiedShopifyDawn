@@ -21,18 +21,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -49,13 +46,11 @@
         },
         "discount_ninja_discountninja_app_blocks_product_banner_WP3VE7": {
           "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-          "settings": {
-          }
+          "settings": {}
         },
         "d77d042a-7232-4ef3-9874-35307fe9f156": {
           "type": "shopify://apps/volume-discounts/blocks/offer_table_block/25745434-52e7-4378-88f1-890df18a0110",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -67,8 +62,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "complementary_YhGd4V": {
           "type": "complementary",
@@ -155,8 +149,7 @@
       "blocks": {
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -164,67 +157,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "5e239c6a-4fe3-4bde-8826-86daa4bce642": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": "faq-can-i-order-multiple-colors-styles-and-sizes-together-for-customized-custom-engraved-drinkware"
-          }
-        },
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-1",
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-2",
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-3",
-        "template--16828830056704__5e239c6a-4fe3-4bde-8826-86daa4bce642-collapsible_row-4"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "FAQ",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "1706656671601d943c": {
@@ -249,7 +181,6 @@
     "main",
     "related-products",
     "1693398513cc258c5a",
-    "5e239c6a-4fe3-4bde-8826-86daa4bce642",
     "1706656671601d943c",
     "page_mpedUc"
   ]
