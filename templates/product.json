@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "custom_liquid_UUr6jR": {
           "type": "custom_liquid",
@@ -44,13 +42,11 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -61,8 +57,8 @@
         },
         "easify_options_easify_product_options_p6PfdA": {
           "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
-          "settings": {
-          }
+          "disabled": true,
+          "settings": {}
         },
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
           "type": "collapsible_tab",
@@ -74,11 +70,6 @@
             "page": ""
           }
         },
-        "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify://apps/volume-discounts/blocks/offer_table_block/25745434-52e7-4378-88f1-890df18a0110",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -88,8 +79,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -109,7 +99,6 @@
         "variant_picker",
         "easify_options_easify_product_options_p6PfdA",
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
-        "d77d042a-7232-4ef3-9874-35307fe9f156",
         "buy_buttons",
         "description",
         "share"
@@ -157,8 +146,7 @@
       "blocks": {
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
