@@ -67,7 +67,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Item Desciption",
-            "icon": "none",
+            "icon": "clipboard",
             "content": "{{ product.metafields.custom.description | metafield_tag }}",
             "page": ""
           }
