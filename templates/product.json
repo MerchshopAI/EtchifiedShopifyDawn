@@ -14,7 +14,6 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -22,26 +21,16 @@
         },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {}
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
           "settings": {}
         },
         "custom_liquid_UUr6jR": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "{%- if product.metafields.wholesale.minimum_quantity > 1 -%}\n        <p>Minimum Qty: {{ product.metafields.wholesale.minimum_quantity }}</p>\n        {%- endif -%}"
-          }
-        },
-        "066e02bb-1a0f-462c-9f85-2294cfe6fdeb": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{{ 'Design Now' | link_to: product.metafields.custom.customizer_url, class: 'product-form__submit button button--full-width button--secondary' }}"
           }
         },
         "price": {
@@ -61,12 +50,10 @@
         },
         "easify_options_easify_product_options_p6PfdA": {
           "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
-          "disabled": true,
           "settings": {}
         },
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Item Desciption",
             "icon": "none",
@@ -97,7 +84,6 @@
         "title",
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
         "custom_liquid_UUr6jR",
-        "066e02bb-1a0f-462c-9f85-2294cfe6fdeb",
         "price",
         "quantity_selector",
         "variant_picker",
