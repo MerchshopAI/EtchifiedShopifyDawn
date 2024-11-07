@@ -14,6 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -21,14 +22,17 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {}
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         },
         "custom_liquid_UUr6jR": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{%- if product.metafields.wholesale.minimum_quantity > 1 -%}\n        <p>Minimum Qty: {{ product.metafields.wholesale.minimum_quantity }}</p>\n        {%- endif -%}"
           }
