@@ -143,15 +143,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3838990611052461119": {
         "type": "shopify://apps/customerhub/blocks/app-embed/0fb3ba0b-4c65-4919-a85a-48bc2d368e9c",
@@ -196,8 +193,7 @@
       "1173261918193615741": {
         "type": "shopify://apps/geo-pro-geolocation-redirects/blocks/geopro/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -214,14 +210,12 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5163884144194077907": {
         "type": "shopify://apps/sami-b2b-lock/blocks/app-embed/8d86a3b4-97b3-44ab-adc1-ec01c5a89da9",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "starapps-vsk": {
         "type": "shopify://apps/swatch-king-combined-listings/blocks/variant-swatch-king/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
@@ -236,62 +230,47 @@
       "13027630495364635475": {
         "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "558381514691908246": {
         "type": "shopify://apps/volume-discounts/blocks/app-embed/25745434-52e7-4378-88f1-890df18a0110",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "11104565113590962351": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "15154131639906026026": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/broken-link-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "1369284949797581044": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/collection-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "14971748854670876780": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/product-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "1360768219604461044": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/store-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "11089864892113081655": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/website-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "13375938897875554821": {
         "type": "shopify://apps/qikify-sales-pop-up/blocks/app-embed/688dd516-1cdc-4008-8329-23089a1c4e24",
         "disabled": true,
-        "settings": {
-        }
-      },
-      "316487575649303945": {
-        "type": "shopify://apps/easify-options/blocks/app-embed-block/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
-        "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5149645339031002760": {
         "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
@@ -323,6 +302,11 @@
           "mobile_nav_selector": "",
           "addons_enabled": false
         }
+      },
+      "316487575649303945": {
+        "type": "shopify://apps/easify-options/blocks/app-embed-block/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
