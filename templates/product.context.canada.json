@@ -12,5 +12,16 @@
   "context": {
     "market": "canada"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "buy_buttons": {
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      }
+    }
+  }
 }

@@ -52,6 +52,17 @@
           "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
           "settings": {}
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "discount_ninja_discountninja_app_blocks_product_banner_pzMNap": {
+          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {}
+        },
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
           "type": "collapsible_tab",
           "settings": {
@@ -61,15 +72,9 @@
             "page": ""
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "share": {
@@ -88,8 +93,9 @@
         "quantity_selector",
         "variant_picker",
         "easify_options_easify_product_options_p6PfdA",
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
         "buy_buttons",
+        "discount_ninja_discountninja_app_blocks_product_banner_pzMNap",
+        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
         "description",
         "share"
       ],
@@ -145,73 +151,11 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "collapsible_content_73FWgB": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_ckKDKW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_FyJTaP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_7MVDRE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_6a9PQC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_ckKDKW",
-        "collapsible_row_FyJTaP",
-        "collapsible_row_7MVDRE",
-        "collapsible_row_6a9PQC"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1693398513cc258c5a",
-    "collapsible_content_73FWgB"
+    "1693398513cc258c5a"
   ]
 }
