@@ -77,6 +77,19 @@
           "type": "description",
           "settings": {}
         },
+        "complementary_LcdGYq": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -97,6 +110,7 @@
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
         "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
         "description",
+        "complementary_LcdGYq",
         "share"
       ],
       "custom_css": [
