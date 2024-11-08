@@ -147,14 +147,6 @@
     "image_with_text_4KHKdn": {
       "type": "image-with-text",
       "blocks": {
-        "caption_mVw3MM": {
-          "type": "caption",
-          "settings": {
-            "caption": "About the Brand",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "small"
-          }
-        },
         "heading_YCHjj7": {
           "type": "heading",
           "settings": {
@@ -171,7 +163,6 @@
         }
       },
       "block_order": [
-        "caption_mVw3MM",
         "heading_YCHjj7",
         "text_CeiPty"
       ],
