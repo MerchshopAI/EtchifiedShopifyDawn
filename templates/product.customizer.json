@@ -12,18 +12,18 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "popup_8LVyFw": {
-          "type": "popup",
-          "settings": {
-            "text": "Customizer Basics",
-            "page": "how-to-use-the-etchified-customizer"
-          }
-        },
         "text_aHJy7C": {
           "type": "text",
           "settings": {
             "text": "{{ product.title }}",
             "text_style": "uppercase"
+          }
+        },
+        "popup_8LVyFw": {
+          "type": "popup",
+          "settings": {
+            "text": "Customizer Basics",
+            "page": "how-to-use-the-etchified-customizer"
           }
         },
         "zakeke_product_customiser_2d3d_zakeke_customizer_HpY3xx": {
@@ -34,8 +34,8 @@
         }
       },
       "block_order": [
-        "popup_8LVyFw",
         "text_aHJy7C",
+        "popup_8LVyFw",
         "zakeke_product_customiser_2d3d_zakeke_customizer_HpY3xx"
       ],
       "custom_css": [
