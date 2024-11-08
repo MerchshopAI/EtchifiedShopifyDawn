@@ -19,112 +19,16 @@
             "text_style": "uppercase"
           }
         },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
         "zakeke_product_customiser_2d3d_zakeke_customizer_HpY3xx": {
           "type": "shopify://apps/zakeke-product-customiser-2d3d/blocks/zakeke-customizer/40f7d63b-2e60-4d29-a347-f3c5c69e4428",
           "settings": {
             "product": "{{product}}"
           }
-        },
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {}
-        },
-        "bbe5a2b4-ce77-47dd-aea4-714efe90015f": {
-          "type": "shopify://apps/swatch-king/blocks/product-swatch-block/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
-          "disabled": true,
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Item Desciption",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.description | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify://apps/volume-discounts/blocks/offer_table_block/25745434-52e7-4378-88f1-890df18a0110",
-          "disabled": true,
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "custom_liquid_MNEzJd": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design Now</span>\n</button>\n<script>\n    document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    let rootUrl = '{{ routes.root_url }}';\n    if (rootUrl !== '/') {\n      rootUrl = rootUrl + '/';\n    }\n    window.location.href = rootUrl + 'apps/zakeke/?pid={{ request.path }}&id=' + document.querySelector('select[name=id], input[name=id]').value;\n});\n</script>"
-          }
         }
       },
       "block_order": [
         "text_aHJy7C",
-        "title",
-        "price",
-        "zakeke_product_customiser_2d3d_zakeke_customizer_HpY3xx",
-        "vendor",
-        "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
-        "bbe5a2b4-ce77-47dd-aea4-714efe90015f",
-        "variant_picker",
-        "quantity_selector",
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
-        "d77d042a-7232-4ef3-9874-35307fe9f156",
-        "buy_buttons",
-        "description",
-        "share",
-        "custom_liquid_MNEzJd"
+        "zakeke_product_customiser_2d3d_zakeke_customizer_HpY3xx"
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.product--large:not(.product--no-media) .grid__item.product__media-wrapper, .product--large:not(.product--no-media) .product__info-wrapper.grid__item, .product__info-wrapper.grid__item .product__info-container {width: 100%; max-width: 100%; } .product.grid {flex-direction: column; }}",
