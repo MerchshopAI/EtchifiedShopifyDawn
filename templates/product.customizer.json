@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "popup_8LVyFw": {
+          "type": "popup",
+          "settings": {
+            "text": "Customizer Basics",
+            "page": "how-to-use-the-etchified-customizer"
+          }
+        },
         "text_aHJy7C": {
           "type": "text",
           "settings": {
@@ -27,6 +34,7 @@
         }
       },
       "block_order": [
+        "popup_8LVyFw",
         "text_aHJy7C",
         "zakeke_product_customiser_2d3d_zakeke_customizer_HpY3xx"
       ],
