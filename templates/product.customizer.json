@@ -9,24 +9,6 @@
  */
 {
   "sections": {
-    "170665813749292c5f": {
-      "type": "apps",
-      "blocks": {
-        "zakeke_product_customiser_2d3d_zakeke_customizer_DxqiRD": {
-          "type": "shopify://apps/zakeke-product-customiser-2d3d/blocks/zakeke-customizer/40f7d63b-2e60-4d29-a347-f3c5c69e4428",
-          "disabled": true,
-          "settings": {
-            "product": "{{ product }}"
-          }
-        }
-      },
-      "block_order": [
-        "zakeke_product_customiser_2d3d_zakeke_customizer_DxqiRD"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -185,7 +167,6 @@
     }
   },
   "order": [
-    "170665813749292c5f",
     "main",
     "related-products"
   ]
