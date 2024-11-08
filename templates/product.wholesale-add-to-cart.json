@@ -61,7 +61,7 @@
         "d0a3556f-8352-427b-9bfa-c159de00488d": {
           "type": "text",
           "settings": {
-            "text": "<strong>Minimum Quantity: </strong>{{ product.metafields.wholesale.minimum_quantity.value }} (can mix and match)",
+            "text": "<strong>Minimum Quantity: </strong>{{ product.metafields.custom.minimum_quantity.value }} (can mix and match)",
             "text_style": "body"
           }
         },
