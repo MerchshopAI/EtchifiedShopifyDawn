@@ -116,10 +116,6 @@
      data-source="asset" 
      version="1.0.0">
 </div>
-              {% if product.metafields.custom_fields.ProductBrand %}
-  {% section 'image_with_text_4KHKdn' %}
-{% endif %}
-
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
