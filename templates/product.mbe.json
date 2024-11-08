@@ -136,6 +136,14 @@
     "image_with_text_NnhHy6": {
       "type": "image-with-text",
       "blocks": {
+        "caption_XVeTCY": {
+          "type": "caption",
+          "settings": {
+            "caption": "About the Brand",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
         "heading_fgiaQ3": {
           "type": "heading",
           "settings": {
@@ -152,13 +160,14 @@
         }
       },
       "block_order": [
+        "caption_XVeTCY",
         "heading_fgiaQ3",
         "text_JCgjPh"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.productbrand.value.brand_lifestyle_image.value }}",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
