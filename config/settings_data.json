@@ -298,7 +298,7 @@
       },
       "3838990611052461119": {
         "type": "shopify://apps/customer-accounts-hub/blocks/app-embed/0fb3ba0b-4c65-4919-a85a-48bc2d368e9c",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "account_primary_page": "",
           "main_element": "",
