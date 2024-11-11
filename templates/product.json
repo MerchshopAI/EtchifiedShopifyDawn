@@ -52,11 +52,10 @@
           "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "custom_liquid_gACTJw": {
+          "type": "custom_liquid",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "custom_liquid": "<form action=\"/cart/add\" method=\"post\" enctype=\"multipart/form-data\">\n  <input type=\"hidden\" name=\"id\" value=\"{{ product.selected_or_first_available_variant.id }}\">\n  <button type=\"submit\" class=\"product-form__submit button button--full-width button--secondary\">\n    {{ 'products.product.add_to_cart' | t }}\n  </button>\n</form>"
           }
         },
         "discount_ninja_discountninja_app_blocks_product_banner_pzMNap": {
@@ -96,7 +95,7 @@
         "quantity_selector",
         "variant_picker",
         "easify_options_easify_product_options_p6PfdA",
-        "buy_buttons",
+        "custom_liquid_gACTJw",
         "discount_ninja_discountninja_app_blocks_product_banner_pzMNap",
         "description",
         "complementary_zNgX8e",

@@ -52,6 +52,12 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_MwT473": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<form action=\"/cart/add\" method=\"post\" enctype=\"multipart/form-data\">\n  <input type=\"hidden\" name=\"id\" value=\"{{ product.selected_or_first_available_variant.id }}\">\n  <button type=\"submit\" class=\"product-form__submit button button--full-width button--secondary\">\n    {{ 'products.product.add_to_cart' | t }}\n  </button>\n</form>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -62,16 +68,6 @@
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP": {
           "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
           "settings": {}
-        },
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Item Desciption",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.description | metafield_tag }}",
-            "page": ""
-          }
         },
         "description": {
           "type": "description",
@@ -106,9 +102,9 @@
         "quantity_selector",
         "easify_options_easify_product_options_p6PfdA",
         "variant_picker",
+        "custom_liquid_MwT473",
         "buy_buttons",
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
         "description",
         "complementary_LcdGYq",
         "share"
