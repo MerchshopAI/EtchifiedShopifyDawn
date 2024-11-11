@@ -89,7 +89,7 @@
         "custom_liquid_PVKpDD": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  <p>PDF: <a href=\"{{ customer.custom.one_color_laser }}\" target=\"new\">Sample PDF from APP</a></p>\n{% else %}\n    <p>Please log in to download your logo.</p>\n{% endif %}"
+            "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n    <a href=\"{{ customer.metafields.custom.one_color_laser }}\" download class=\"btn btn-download\">\n        Download Your Logo\n    </a>\n{% else %}\n    <p>Please log in to download your logo.</p>\n{% endif %}"
           }
         }
       },
