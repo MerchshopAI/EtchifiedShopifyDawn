@@ -89,7 +89,7 @@
         "custom_liquid_PVKpDD": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign logo_url = custom.one_color_laser %}\n{% if customer and logo_url %}\n    <a href=\"{{ logo_url }}\" download=\"customer_logo.png\" class=\"btn btn-download\">\n        Download Your Logo\n    </a>\n{% else %}\n    <p>Please log in to download your logo.</p>\n{% endif %}"
+            "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n    <a id=\"download-logo\" href=\"{{ customer.metafields.custom.one_color_laser }}\" download class=\"btn btn-download\">\n        Download Your Logo\n    </a>\n    <script>\n        document.getElementById('download-logo').addEventListener('click', function(event) {\n            const url = new URL(event.target.href);\n            const fileName = url.pathname.split('/').pop();\n            event.target.setAttribute('download', fileName);\n        });\n    </script>\n{% else %}\n    <p>Please log in to download your logo.</p>\n{% endif %}"
           }
         }
       },
