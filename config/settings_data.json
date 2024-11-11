@@ -150,18 +150,6 @@
         "disabled": false,
         "settings": {}
       },
-      "3838990611052461119": {
-        "type": "shopify://apps/customerhub/blocks/app-embed/0fb3ba0b-4c65-4919-a85a-48bc2d368e9c",
-        "disabled": false,
-        "settings": {
-          "account_primary_page": "",
-          "main_element": "",
-          "custom_element": "",
-          "page_element": "",
-          "proxy_element": "",
-          "mount_json_code": ""
-        }
-      },
       "12120936241911852800": {
         "type": "shopify://apps/judge-me-product-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
@@ -306,6 +294,18 @@
           "desktop_nav_selector": "",
           "mobile_nav_selector": "",
           "addons_enabled": false
+        }
+      },
+      "3838990611052461119": {
+        "type": "shopify://apps/customer-accounts-hub/blocks/app-embed/0fb3ba0b-4c65-4919-a85a-48bc2d368e9c",
+        "disabled": true,
+        "settings": {
+          "account_primary_page": "",
+          "main_element": "",
+          "custom_element": "",
+          "page_element": "",
+          "proxy_element": "",
+          "mount_json_code": ""
         }
       }
     },
