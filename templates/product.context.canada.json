@@ -15,13 +15,7 @@
   "sections": {
     "main": {
       "settings": {},
-      "blocks": {
-        "buy_buttons": {
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        }
-      }
+      "blocks": {}
     }
   }
 }
