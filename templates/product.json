@@ -85,6 +85,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_PVKpDD": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign logo_url = custom.one_color_laser %}\n{% if customer and logo_url %}\n    <a href=\"{{ logo_url }}\" download=\"customer_logo.png\" class=\"btn btn-download\">\n        Download Your Logo\n    </a>\n{% else %}\n    <p>Please log in to download your logo.</p>\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -100,7 +106,8 @@
         "discount_ninja_discountninja_app_blocks_product_banner_pzMNap",
         "description",
         "complementary_zNgX8e",
-        "share"
+        "share",
+        "custom_liquid_PVKpDD"
       ],
       "custom_css": [
         "button.product-form__submit.button.button--full-width.button--secondary {background: #ffa842 !important; color: Black !important;}",
