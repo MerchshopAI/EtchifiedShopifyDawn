@@ -19,12 +19,6 @@
             "text_style": "uppercase"
           }
         },
-        "custom_liquid_6f9EgL": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.product.setupcharges %}\n  <div class=\"setup-charges\">\n    <h3>Setup Charges</h3>\n    <ul>\n      {% for charge in product.metafields.product.setupcharges %}\n        <li>\n          <a href=\"{{ charge.url }}\">\n            <img src=\"{{ charge.featured_image | img_url: 'small' }}\" alt=\"{{ charge.title }}\">\n            <p>{{ charge.title }}</p>\n            <p>{{ charge.price | money }}</p>\n          </a>\n        </li>\n      {% endfor %}\n    </ul>\n  </div>\n{% else %}\n  <p>No setup charges or add-on options available for this product.</p>\n{% endif %}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -102,7 +96,6 @@
       },
       "block_order": [
         "vendor",
-        "custom_liquid_6f9EgL",
         "title",
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
         "custom_liquid_UUr6jR",
