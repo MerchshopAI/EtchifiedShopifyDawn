@@ -37,25 +37,26 @@
           "type": "price",
           "settings": {}
         },
+        "easify_options_easify_product_options_p6PfdA": {
+          "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
+        },
+        "buy_buttons_eTrnL6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "dropdown",
             "swatch_shape": "circle"
-          }
-        },
-        "easify_options_easify_product_options_p6PfdA": {
-          "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
-          "settings": {}
-        },
-        "custom_liquid_gACTJw": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<form action=\"/cart/add\" method=\"post\" enctype=\"multipart/form-data\">\n  <input type=\"hidden\" name=\"id\" value=\"{{ product.selected_or_first_available_variant.id }}\">\n  <button type=\"submit\" class=\"product-form__submit button button--full-width button--secondary\">\n    {{ 'products.product.add_to_cart' | t }}\n  </button>\n</form>"
           }
         },
         "discount_ninja_discountninja_app_blocks_product_banner_pzMNap": {
@@ -92,10 +93,10 @@
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
         "custom_liquid_UUr6jR",
         "price",
-        "quantity_selector",
-        "variant_picker",
         "easify_options_easify_product_options_p6PfdA",
-        "custom_liquid_gACTJw",
+        "quantity_selector",
+        "buy_buttons_eTrnL6",
+        "variant_picker",
         "discount_ninja_discountninja_app_blocks_product_banner_pzMNap",
         "description",
         "complementary_zNgX8e",
