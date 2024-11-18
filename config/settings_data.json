@@ -220,11 +220,6 @@
         "disabled": false,
         "settings": {}
       },
-      "558381514691908246": {
-        "type": "shopify://apps/volume-discounts/blocks/app-embed/25745434-52e7-4378-88f1-890df18a0110",
-        "disabled": true,
-        "settings": {}
-      },
       "11104565113590962351": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
