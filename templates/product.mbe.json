@@ -82,8 +82,54 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "collapsible_tab_b3GVXD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mbe_faq.value.mbe_lead_time_question.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.mbe_faq.value.lead_time | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AzkzEz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mbe_faq.value.mbe_specific_quantity_question.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.mbe_faq.value.mbe_specific_quantity_answer | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_XVLp8J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mbe_faq.value.mbe_moq_question.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.mbe_faq.value.mbe_moq_answer | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_4RyyAc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mbe_faq.value.mbe_ltm_question.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.mbe_faq.value.mbe_ltm_answer | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_6JGW3z": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mbe_faq.value.mbe_sample_question.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.mbe_faq.value.mbe_sample_answer | metafield_tag }}</p>",
+            "page": ""
           }
         }
       },
@@ -100,7 +146,12 @@
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
         "description",
         "complementary_LcdGYq",
-        "share"
+        "share",
+        "collapsible_tab_b3GVXD",
+        "collapsible_tab_AzkzEz",
+        "collapsible_tab_XVLp8J",
+        "collapsible_tab_4RyyAc",
+        "collapsible_tab_6JGW3z"
       ],
       "custom_css": [
         "button.product-form__submit.button.button--full-width.button--secondary {background: #ffa842 !important; color: Black !important;}",
