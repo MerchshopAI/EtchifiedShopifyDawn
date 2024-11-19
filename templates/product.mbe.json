@@ -205,11 +205,44 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_tdbaPB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gpgCHG": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.decoration_locations | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_gpgCHG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_mgK8bE": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1693398513cc258c5a"
+    "1693398513cc258c5a",
+    "custom_liquid_mgK8bE",
+    "rich_text_tdbaPB"
   ]
 }
