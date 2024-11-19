@@ -66,8 +66,18 @@
         },
         "custom_liquid_eM9VDH": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<!-- Link to scroll to the decoration-location-details anchor -->\n<a href=\"{{ request.path }}#decoration-location-details\">View Decoration Location Details</a>"
+          }
+        },
+        "collapsible_tab_PRU3B8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Primary Decoration Location",
+            "icon": "ruler",
+            "content": "{{ product.metafields.custom.decoration_locations | metafield_tag }}",
+            "page": ""
           }
         },
         "buy_buttons": {
@@ -162,6 +172,7 @@
         "order_limits_minmaxify_product_limits_display_G7Ng99",
         "easify_options_easify_product_options_p6PfdA",
         "custom_liquid_eM9VDH",
+        "collapsible_tab_PRU3B8",
         "buy_buttons",
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
         "description",
@@ -195,6 +206,7 @@
     },
     "custom_liquid_mgK8bE": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div id=\"decoration-location-details\">\n<!-- This section serves as a text anchor opening for the Easify URL link and will go on top of the rich text section-->",
         "color_scheme": "",
@@ -215,6 +227,7 @@
       "block_order": [
         "text_gpgCHG"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -226,6 +239,7 @@
     },
     "custom_liquid_hXaDem": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!-- This section serves to close the text anchor code for the Easify URL link -->\n</div>",
         "color_scheme": "",
@@ -248,8 +262,8 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image with text{{ product.metafields.custom.product_brand.value.brand_title.value }}",
-            "heading_size": "h1"
+            "heading": "{{ product.metafields.custom.product_brand.value.brand_title.value }}",
+            "heading_size": "h2"
           }
         },
         "text_atH7zX": {
@@ -268,9 +282,9 @@
       "settings": {
         "image": "{{ product.metafields.custom.product_brand.value.brand_lifestyle_image.value }}",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
