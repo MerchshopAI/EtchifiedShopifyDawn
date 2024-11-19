@@ -215,11 +215,6 @@
           "preselect_variant": false
         }
       },
-      "13027630495364635475": {
-        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": false,
-        "settings": {}
-      },
       "11104565113590962351": {
         "type": "shopify://apps/tinyseo-seo-speed/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
         "disabled": true,
@@ -305,6 +300,11 @@
       },
       "10727672529976264282": {
         "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless-1124/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": true,
+        "settings": {}
+      },
+      "13027630495364635475": {
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": false,
         "settings": {}
       }
