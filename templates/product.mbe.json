@@ -45,6 +45,12 @@
           "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
           "settings": {}
         },
+        "custom_liquid_eM9VDH": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Link to scroll to the decoration-location-details anchor -->\n<a href=\"{{ request.path }}#decoration-location-details\">View Decoration Location Details</a>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -141,6 +147,7 @@
         "price",
         "quantity_selector",
         "easify_options_easify_product_options_p6PfdA",
+        "custom_liquid_eM9VDH",
         "variant_picker",
         "buy_buttons",
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
@@ -176,7 +183,7 @@
     "custom_liquid_mgK8bE": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"decoration-location-details\">\n    Decoration Location Details",
+        "custom_liquid": "<div id=\"decoration-location-details\">\n<!-- This section serves as a text anchor opening for the Easify URL link and will go on top of the rich text section-->",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -200,6 +207,15 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_hXaDem": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- This section serves to close the text anchor code for the Easify URL link -->\n</div>",
+        "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -242,6 +258,7 @@
     "main",
     "custom_liquid_mgK8bE",
     "rich_text_tdbaPB",
+    "custom_liquid_hXaDem",
     "related-products",
     "1693398513cc258c5a"
   ]
