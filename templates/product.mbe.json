@@ -37,6 +37,13 @@
           "type": "price",
           "settings": {}
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -49,13 +56,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<!-- Link to scroll to the decoration-location-details anchor -->\n<a href=\"{{ request.path }}#decoration-location-details\">View Decoration Location Details</a>"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown",
-            "swatch_shape": "circle"
           }
         },
         "buy_buttons": {
@@ -145,10 +145,10 @@
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052",
         "custom_liquid_UUr6jR",
         "price",
+        "variant_picker",
         "quantity_selector",
         "easify_options_easify_product_options_p6PfdA",
         "custom_liquid_eM9VDH",
-        "variant_picker",
         "buy_buttons",
         "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
         "description",
