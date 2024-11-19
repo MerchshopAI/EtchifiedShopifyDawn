@@ -30,6 +30,7 @@
           "type": "shopify://apps/zakeke-product-customiser-2d3d/blocks/zakeke-customizer/40f7d63b-2e60-4d29-a347-f3c5c69e4428",
           "settings": {
             "product": "{{product}}"
+            
           }
         }
       },
