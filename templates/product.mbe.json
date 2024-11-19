@@ -29,6 +29,7 @@
         },
         "custom_liquid_UUr6jR": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{%- if product.metafields.custom.minimum_quantity > 1 -%}\n        <p>Minimum Qty: {{ product.metafields.custom.minimum_quantity }}</p>\n        {%- endif -%}"
           }
@@ -47,6 +48,17 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
+        },
+        "order_limits_minmaxify_product_limits_display_G7Ng99": {
+          "type": "shopify://apps/order-limits-minmaxify/blocks/product-limits-display/3acfba32-89f3-4377-ae20-cbb9abc48475",
+          "settings": {
+            "fontWeight": "normal",
+            "color": "",
+            "html1": "Minimum quantity: <span minmaxify-limit=\"min\"></span>",
+            "html2": "Maximum quantity allowed is <span minmaxify-limit=\"max\"></span>.",
+            "html3": "The product can be bought in quantity increments of <span minmaxify-limit=\"multiple\"></span>.",
+            "skip_min_when_multiple": false
+          }
         },
         "easify_options_easify_product_options_p6PfdA": {
           "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
@@ -147,6 +159,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "order_limits_minmaxify_product_limits_display_G7Ng99",
         "easify_options_easify_product_options_p6PfdA",
         "custom_liquid_eM9VDH",
         "buy_buttons",
@@ -241,12 +254,24 @@
     "1693398513cc258c5a": {
       "type": "apps",
       "blocks": {
+        "order_limits_minmaxify_product_limits_display_kqrtw4": {
+          "type": "shopify://apps/order-limits-minmaxify/blocks/product-limits-display/3acfba32-89f3-4377-ae20-cbb9abc48475",
+          "settings": {
+            "fontWeight": "normal",
+            "color": "",
+            "html1": "Minimum quantity allowed is <span minmaxify-limit=\"min\"></span>.",
+            "html2": "Maximum quantity allowed is <span minmaxify-limit=\"max\"></span>.",
+            "html3": "The product can be bought in quantity increments of <span minmaxify-limit=\"multiple\"></span>.",
+            "skip_min_when_multiple": false
+          }
+        },
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
       "block_order": [
+        "order_limits_minmaxify_product_limits_display_kqrtw4",
         "2ce4debc-70c4-45de-a80f-75e5e70fa847"
       ],
       "settings": {
