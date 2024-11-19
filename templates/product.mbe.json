@@ -176,7 +176,7 @@
     "custom_liquid_mgK8bE": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"decoration-location-details\">\n    Decoration Location Details\n</div>",
+        "custom_liquid": "<div id=\"decoration-location-details\">\n    Decoration Location Details",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
