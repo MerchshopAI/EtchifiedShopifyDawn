@@ -61,7 +61,7 @@
     <script>
       function zakekePostProcessIframeUrl(url) {
         debugger;
-        if (!window.location.search.includes('variant')) {
+        if (!window.location.search.includes('variant') || !window.location.search.includes('view')) {
           return;
         }
         const parsedUrl = new URL(window.location.href);
