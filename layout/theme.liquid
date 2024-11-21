@@ -58,6 +58,26 @@
 
     {% render 'meta-tags' %}
 
+    <script>
+      function zakekePostProcessIframeUrl(url) {
+        debugger;
+        if (!window.location.search.includes('variant')) {
+          return;
+        }
+        const parsedUrl = new URL(window.location.href);
+        const variantID = parseInt(parsedZakekeUrl.searchParams.get('variant'));
+        const variant = zakekeTranslatedProduct.variants.find(x => x.id === variantID);
+        if (!variant) {
+          return url;
+        }
+
+        const parsedZakekeUrl = new URL(url);
+        parsedZakekeUrl.searchParams.set('attribute[1]', variant.option1);
+        
+        return url.toString();;
+      }
+    </script>
+
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
