@@ -65,8 +65,8 @@
           return;
         }
         const parsedUrl = new URL(window.location.href);
-        const variantID = parseInt(parsedZakekeUrl.searchParams.get('variant'));
-        const variant = zakekeTranslatedProduct.variants.find(x => x.id === variantID);
+        const variantID = parseInt(parsedUrl.searchParams.get('variant'));
+        const variant = window.zakekeTranslatedProduct.variants.find(x => x.id === variantID);
         if (!variant) {
           return url;
         }
