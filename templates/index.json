@@ -139,6 +139,7 @@
         "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-2",
         "2b023f68-2a83-45e6-87b6-867d82dc1dad"
       ],
+      "disabled": true,
       "settings": {
         "layout": "grid",
         "slide_height": "large",
