@@ -41,7 +41,7 @@
         "41e07029-718d-4729-a821-314a2d1e34ce": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design Now</span>\n</button>\n<script>\n    document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    let rootUrl = '{{ routes.root_url }}';\n    if (rootUrl !== '/') {\n      rootUrl = rootUrl + '/';\n    }\n    window.location.href = rootUrl + 'apps/zakeke/?pid={{ product.id }}&id=' + document.querySelector('select[name=id], input[name=id]').value;\n});\n</script>"
+            "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design Now</span>\n</button>\n\n<script>\n  document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    \n    let rootUrl = '{{ routes.root_url }}';\n    if (rootUrl !== '/') {\n      rootUrl = rootUrl + '/';\n    }\n\n    // Example: Determine market parameter\n    let market = '{{ shop.locale }}'; // Adjust to retrieve the appropriate market code if available\n    \n    // Redirect to Zakeke with market parameter\n    window.location.href = rootUrl + 'apps/zakeke/?pid={{ product.id }}&id=' \n                           + document.querySelector('select[name=id], input[name=id]').value\n                           + '&market=' + market;\n  });\n</script>"
           }
         },
         "discount_ninja_discountninja_app_blocks_product_banner_WP3VE7": {
