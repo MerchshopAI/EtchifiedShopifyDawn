@@ -11,13 +11,55 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "collection_list_3RVFyf": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_z43whR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bfcm-2024-25"
+          }
+        },
+        "featured_collection_p9FrJm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_BwGipQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_z43whR",
+        "featured_collection_p9FrJm",
+        "featured_collection_BwGipQ"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_3RVFyf"
   ]
 }
