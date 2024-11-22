@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "show_collection_description": true,
@@ -20,6 +21,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 50,
         "columns_desktop": 4,
@@ -41,9 +43,9 @@
     "featured_collection_mQPzMr": {
       "type": "featured-collection",
       "settings": {
-        "title": "Save 25%",
+        "title": "🔥Save 25%🔥",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Save 25% on an awsome selection of our best sellers</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "bfcm-2024-25",
@@ -65,11 +67,65 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_CQGfJD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kLehYg": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>40% Off</strong>",
+            "text": "<p>Save 40% on select items - get them before they're gone!</p>",
+            "link_label": "Save 40%",
+            "link": "shopify://collections/bfcm-2024-40"
+          }
+        },
+        "column_PBUxyH": {
+          "type": "column",
+          "settings": {
+            "title": "50% Off",
+            "text": "<p>These items won't last long!</p><p></p><p></p>",
+            "link_label": "Save 50%",
+            "link": "shopify://collections/bfcm-2024-51"
+          }
+        },
+        "column_WBQAMq": {
+          "type": "column",
+          "settings": {
+            "title": "$5 off Premium Brands",
+            "text": "<p>Our classic BFCM Sale - Save $5 on Yeti and Stanley</p>",
+            "link_label": "$5 off per item",
+            "link": "shopify://collections/bfcm-2024-5"
+          }
+        }
+      },
+      "block_order": [
+        "column_kLehYg",
+        "column_PBUxyH",
+        "column_WBQAMq"
+      ],
+      "settings": {
+        "title": "🔥🔥 MORE BFCM DEALS 🔥🔥",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "featured_collection_mQPzMr"
+    "featured_collection_mQPzMr",
+    "multicolumn_CQGfJD"
   ]
 }
