@@ -22,13 +22,12 @@
       "blocks": {
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "disabled": true,
+          "settings": {}
         },
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
