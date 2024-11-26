@@ -61,7 +61,7 @@
     <script>
       function zakekePostProcessIframeUrl(url) {
         if (!window.location.search.includes('variant') || !window.location.search.includes('view')) {
-          return;
+          return url;
         }
         const parsedUrl = new URL(window.location.href);
         const variantID = parseInt(parsedUrl.searchParams.get('variant'));
