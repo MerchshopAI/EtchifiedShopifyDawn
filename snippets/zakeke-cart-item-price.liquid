@@ -1,6 +1,8 @@
+{% comment %}
 {% assign customization_price = item.properties._configurationPrice | default: 0 | plus: 0 %}
 {% if customization_price > 0 %}
 	<span  data-hulkapps-lineitem data-hulkapps-ci-price data-key='{{item.key}}'>{{ item_price | plus: customization_price | money }}</span>
 {% else %}
 	<span  data-hulkapps-lineitem data-hulkapps-ci-price data-key='{{item.key}}'>{{ item_price | money }}</span>
 {% endif %}
+{% endcomment %}
