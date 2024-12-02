@@ -61,7 +61,7 @@
           "type": "text",
           "disabled": false,
           "settings": {
-            "text": "<p>Etchified is happy to announce we have added a new shipping service to Canada. FedEx International Connect Plus is a cost-effective, 2-4 Business Day service available to all physical addresses (no PO boxes). All free shipping orders will now use this service. </p>"
+            "text": "<p>Etchified is happy to announce we have added a new shipping service.</p><p>FedEx International Connect Plus is a cost-effective, 2-4 Business Day service that includes all duties and taxes.</p><p><br/>All free shipping orders will now use this service.  **No PO boxes</p>"
           }
         }
       },
