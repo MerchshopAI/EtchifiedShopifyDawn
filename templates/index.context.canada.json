@@ -13,29 +13,6 @@
     "market": "canada"
   },
   "sections": {
-    "ca667bab-0135-4061-8bc8-ab9cf2097c87": {
-      "settings": {},
-      "blocks": {},
-      "block_order": [
-        "template--16820904493312__ca667bab-0135-4061-8bc8-ab9cf2097c87-featured_collection-1",
-        "template--16820904493312__ca667bab-0135-4061-8bc8-ab9cf2097c87-featured_collection-2",
-        "template--16820904493312__ca667bab-0135-4061-8bc8-ab9cf2097c87-featured_collection-3",
-        "37a5ea29-cf16-41ae-b32e-0fa608215064",
-        "4d137fbc-9d67-4bad-ab4a-e6d05ef4ac30",
-        "406965b1-c310-4f0c-a4a3-d214deeee726"
-      ]
-    },
-    "33ead14d-c0c5-48f6-9eea-d7af577a6efb": {
-      "settings": {},
-      "blocks": {
-        "template--16820904493312__33ead14d-c0c5-48f6-9eea-d7af577a6efb-column-3": {
-          "settings": {
-            "title": "Free Shipping Over $300",
-            "text": "<p>All orders over $300 are eligible for free ground shipping. </p>"
-          }
-        }
-      }
-    },
     "rich_text_4TXME": {
       "type": "rich-text",
       "disabled": false,
@@ -44,7 +21,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "header-a40f223836435a2142c8a039831a9c57": null,
+        "header-a2bd5fd1cdb5e0eeb7d46633694803de": null,
         "padding_top": 40,
         "padding_bottom": 52
       },
@@ -68,6 +45,29 @@
       "block_order": [
         "heading_yg9cP",
         "text_xtedr"
+      ]
+    },
+    "33ead14d-c0c5-48f6-9eea-d7af577a6efb": {
+      "settings": {},
+      "blocks": {
+        "template--16820904493312__33ead14d-c0c5-48f6-9eea-d7af577a6efb-column-3": {
+          "settings": {
+            "title": "Free Shipping Over $350",
+            "text": "<p>All orders over $350 are eligible for free ground shipping. </p>"
+          }
+        }
+      }
+    },
+    "ca667bab-0135-4061-8bc8-ab9cf2097c87": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "template--16820904493312__ca667bab-0135-4061-8bc8-ab9cf2097c87-featured_collection-1",
+        "template--16820904493312__ca667bab-0135-4061-8bc8-ab9cf2097c87-featured_collection-2",
+        "template--16820904493312__ca667bab-0135-4061-8bc8-ab9cf2097c87-featured_collection-3",
+        "37a5ea29-cf16-41ae-b32e-0fa608215064",
+        "4d137fbc-9d67-4bad-ab4a-e6d05ef4ac30",
+        "406965b1-c310-4f0c-a4a3-d214deeee726"
       ]
     }
   },
