@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -25,7 +25,7 @@
         "a1515849-e324-435f-886f-fe33ca3f77a3": {
           "type": "announcement",
           "settings": {
-            "text": "🇺🇸 FREE SHIPPING ON ORDERS OVER $200 🇺🇸",
+            "text": "📦 FREE SHIPPING ON ORDERS OVER $200 📦",
             "link": ""
           }
         }
