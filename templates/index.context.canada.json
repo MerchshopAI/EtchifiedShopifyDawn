@@ -53,7 +53,7 @@
         "template--16820904493312__33ead14d-c0c5-48f6-9eea-d7af577a6efb-column-3": {
           "settings": {
             "title": "Free Shipping Over $350",
-            "text": "<p>All orders over $350 are eligible for free ground shipping. </p>"
+            "text": "<p>All orders over $350 are eligible for free express shipping. </p><p>**No PO boxes for Express</p>"
           }
         }
       }
