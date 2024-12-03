@@ -9,54 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_KaN47G": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_4G8eng": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_EjCRJe": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_gJhCh3": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/bfcm-2024",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_4G8eng",
-        "text_EjCRJe",
-        "buttons_gJhCh3"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/BFCM2024.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "c6acf002-b479-4c22-b7ab-d1481f52517c": {
       "type": "slideshow",
       "blocks": {
@@ -139,7 +91,6 @@
         "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-2",
         "2b023f68-2a83-45e6-87b6-867d82dc1dad"
       ],
-      "disabled": true,
       "settings": {
         "layout": "grid",
         "slide_height": "large",
@@ -432,7 +383,6 @@
     }
   },
   "order": [
-    "image_banner_KaN47G",
     "c6acf002-b479-4c22-b7ab-d1481f52517c",
     "image_banner",
     "1a162207-4f9e-4cc5-b732-f461be6b10b0",
