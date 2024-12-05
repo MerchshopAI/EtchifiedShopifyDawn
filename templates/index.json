@@ -83,13 +83,32 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_dqVyYx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Holiday-2024_Hero_1.jpg",
+            "heading": "Holiday-Ready Gifts, Right on Time",
+            "heading_size": "h1",
+            "subheading": "Made and shipped to arrive for your event—free of rush charges.",
+            "button_label": "Get Yours Now!",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1",
         "slide_ai9pc7",
         "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-2",
-        "2b023f68-2a83-45e6-87b6-867d82dc1dad"
+        "2b023f68-2a83-45e6-87b6-867d82dc1dad",
+        "slide_dqVyYx"
       ],
       "settings": {
         "layout": "grid",
