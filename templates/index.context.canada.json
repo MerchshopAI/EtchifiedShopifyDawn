@@ -15,13 +15,13 @@
   "sections": {
     "rich_text_4TXME": {
       "type": "rich-text",
-      "disabled": false,
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "header-a2bd5fd1cdb5e0eeb7d46633694803de": null,
+        "header-72e9149e3515f897e659b635b754065c": null,
         "padding_top": 40,
         "padding_bottom": 52
       },
