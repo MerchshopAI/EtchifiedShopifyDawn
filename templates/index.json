@@ -50,6 +50,7 @@
         },
         "slide_dqVyYx": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Holiday-2024_Hero_688b6212-3265-4ee7-abdc-5d472c32f09f.jpg",
             "heading": "Holiday-Ready Gifts, Right on Time",
