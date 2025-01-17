@@ -88,10 +88,6 @@
             "page": ""
           }
         },
-        "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP": {
-          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -175,7 +171,6 @@
         "custom_liquid_eM9VDH",
         "buy_buttons",
         "collapsible_tab_PRU3B8",
-        "discount_ninja_discountninja_app_blocks_product_banner_rjgYkP",
         "description",
         "complementary_LcdGYq",
         "share",
@@ -213,6 +208,21 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "17371508756735d6e9": {
+      "type": "apps",
+      "blocks": {
+        "discount_ninja_discountninja_app_blocks_product_banner_T7NYjw": {
+          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "discount_ninja_discountninja_app_blocks_product_banner_T7NYjw"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_tdbaPB": {
@@ -333,6 +343,7 @@
   "order": [
     "main",
     "custom_liquid_mgK8bE",
+    "17371508756735d6e9",
     "rich_text_tdbaPB",
     "custom_liquid_hXaDem",
     "image_with_text_bgxUCF",
