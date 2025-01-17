@@ -50,7 +50,7 @@
           "settings": {}
         },
         "order_limits_minmaxify_product_limits_display_G7Ng99": {
-          "type": "shopify://apps/order-limits-minmaxify/blocks/product-limits-display/3acfba32-89f3-4377-ae20-cbb9abc48475",
+          "type": "shopify://apps/minmaxify-order-limits/blocks/product-limits-display/3acfba32-89f3-4377-ae20-cbb9abc48475",
           "settings": {
             "fontWeight": "normal",
             "color": "",
@@ -73,6 +73,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
