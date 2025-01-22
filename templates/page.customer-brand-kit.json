@@ -78,11 +78,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_ykcTig": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<form id=\"file-upload-form\">\n  <input type=\"file\" id=\"customer-file\" accept=\"image/*\" />\n  <button type=\"submit\">Upload</button>\n</form>\n\n<script>\n  document.getElementById('file-upload-form').addEventListener('submit', async (event) => {\n    event.preventDefault();\n    const fileInput = document.getElementById('customer-file');\n    if (fileInput.files.length > 0) {\n      const file = fileInput.files[0];\n\n      // Upload file to Shopify or external storage\n      const fileURL = await uploadFile(file);\n\n      // Call your custom app to update the metaobject\n      await updateMetaobject(fileURL);\n\n      alert('File uploaded and metaobject updated!');\n    } else {\n      alert('Please select a file to upload.');\n    }\n  });\n\n  async function uploadFile(file) {\n    // Add logic to upload file to Shopify or external service\n    return 'https://cdn.shopify.com/files/example-uploaded-file.png'; // Replace with actual uploaded file URL\n  }\n\n  async function updateMetaobject(fileURL) {\n    // Call your custom app to update the Shopify metaobject\n    console.log('Updating metaobject with URL:', fileURL);\n    // Add logic to send fileURL to your app or Shopify API\n  }\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_kYAmPz",
-    "custom_liquid_VNtFLW"
+    "custom_liquid_VNtFLW",
+    "custom_liquid_ykcTig"
   ]
 }
