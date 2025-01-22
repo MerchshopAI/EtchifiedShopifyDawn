@@ -15,9 +15,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_MUnzVT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  <div>\n    <h2>Your Uploaded Logo</h2>\n    <img src=\"{{ customer.metafields.custom.one_color_laser | file_url }}\" alt=\"Customer Logo\">\n  </div>\n{% else %}\n  <p>No logo uploaded yet.</p>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_MUnzVT"
   ]
 }
