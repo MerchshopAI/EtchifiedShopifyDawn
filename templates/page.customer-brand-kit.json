@@ -15,9 +15,61 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_kYAmPz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RYFYTk": {
+          "type": "heading",
+          "source": "{{ shop.metaobjects.customer_brand[\"customer-brand-rasd9t4l\"] }}",
+          "settings": {
+            "heading": "One Color Laser",
+            "heading_size": "h1"
+          }
+        },
+        "text_b4paGP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_EFGhqT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RYFYTk",
+        "text_b4paGP",
+        "button_EFGhqT"
+      ],
+      "custom_css": [
+        "img {max-width: 300px; height: auto; display: block; margin: 0 auto;}"
+      ],
+      "settings": {
+        "image": "{{ shop.metaobjects.customer_brand[\"customer-brand-rasd9t4l\"].one_color_laser.value }}",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_kYAmPz"
   ]
 }
