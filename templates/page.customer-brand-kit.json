@@ -66,10 +66,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_VNtFLW": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  {% assign logo_url = customer.metafields.custom.one_color_laser | file_url %}\n  {% assign logo_name = logo_url | split: '/' | last %}\n  <img \n    src=\"https://merchshopai.imgix.net/PolarCamelLTM7253.jpg?w=2000&blend=https://merchshopai.imgix.net/{{ logo_name }}&blend-mode=normal&blend-w=0.3&blend-y=600\" \n    alt=\"Customized Product\" \n    >\n{% else %}\n  <p>No logo uploaded yet.</p>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_kYAmPz"
+    "image_with_text_kYAmPz",
+    "custom_liquid_VNtFLW"
   ]
 }
