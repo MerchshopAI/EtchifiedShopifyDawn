@@ -18,8 +18,35 @@
     },
     "custom_liquid_MUnzVT": {
       "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "img {max-width: 300px; height: auto; display: block; margin: 0 auto;}"
+      ],
       "settings": {
-        "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  <div>\n    <h2>Your Uploaded Logo</h2>\n    <img src=\"{{ customer.metafields.custom.one_color_laser | file_url }}\" alt=\"Customer Logo\">\n  </div>\n{% else %}\n  <p>No logo uploaded yet.</p>\n{% endif %}",
+        "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  <div>\n    <h2>One Color Laser</h2>\n    <img src=\"{{ customer.metafields.custom.one_color_laser | file_url }}\" alt=\"Customer Logo\">\n  </div>\n{% else %}\n  <p>No logo uploaded yet.</p>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_3Hzrk9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  {% assign logo_url = customer.metafields.custom.one_color_laser | file_url %}\n  <img \n    src=\"https://merchshopai.imgix.net/PolarCamelLTM7253.jpg?w=2000&blend=https://merchshopai.imgix.net/YourLogoHere5.png&blend-mode=normal&blend-w=0.3&blend-y=600\" \n    alt=\"Customized Product\" \n    style=\"max-width: 100%; height: auto;\">\n{% else %}\n  <p>No logo uploaded yet.</p>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_bN3NnL": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "img {max-width: 300px; height: auto; display: block; margin: 0 auto;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% if customer and customer.metafields.custom.one_color_laser %}\n  {% assign logo_url = customer.metafields.custom.one_color_laser | file_url %}\n  {% assign logo_name = logo_url | split: '/' | last %}\n  <img \n    src=\"https://merchshopai.imgix.net/PolarCamelLTM7253.jpg?w=2000&blend=https://merchshopai.imgix.net/{{ logo_name }}&blend-mode=normal&blend-w=0.3&blend-y=600\" \n    alt=\"Customized Product\" \n    >\n{% else %}\n  <p>No logo uploaded yet.</p>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -28,6 +55,8 @@
   },
   "order": [
     "main",
-    "custom_liquid_MUnzVT"
+    "custom_liquid_MUnzVT",
+    "custom_liquid_3Hzrk9",
+    "custom_liquid_bN3NnL"
   ]
 }
