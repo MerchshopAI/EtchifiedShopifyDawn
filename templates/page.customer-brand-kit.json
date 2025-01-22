@@ -30,7 +30,7 @@
         "text_b4paGP": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>This is how your logo will look laser engraved</p>",
             "text_style": "body"
           }
         },
