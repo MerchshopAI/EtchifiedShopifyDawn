@@ -57,27 +57,71 @@
         "show_text_below": true
       }
     },
-    "image_with_text_JCBAeL": {
-      "type": "image-with-text",
+    "rich_text_gm9c8E": {
+      "type": "rich-text",
       "blocks": {
-        "heading_hiYHQa": {
+        "heading_NRDtB6": {
           "type": "heading",
           "settings": {
             "heading": "Valentines Day - Fri, Feb 14, 2025",
             "heading_size": "h1"
           }
         },
+        "text_8LnQ3Q": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_RjmdGG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NRDtB6",
+        "text_8LnQ3Q",
+        "button_RjmdGG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_JCBAeL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hiYHQa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Valentines Day Gifts",
+            "heading_size": "h1"
+          }
+        },
         "text_M9YccG": {
           "type": "text",
           "settings": {
-            "text": "<p>Celebrate love your way with unique, custom-branded gifts. Choose from our exclusive pre-made designs or create something truly personal using our easy online tool. Whether it’s a heartfelt keepsake or a one-of-a-kind creation, make this Valentine’s Day unforgettable with a gift that speaks from the heart.<br/><br/></p>",
+            "text": "<p>Celebrate love your way with unique, custom-branded gifts. Choose from our exclusive pre-made designs or create something truly personal using our easy online tool. Whether it’s a heartfelt keepsake or a one-of-a-kind creation, make this Valentine’s Day unforgettable with a gift that speaks from the heart.<br/><br/><a href=\"https://www.etchified.com/blogs/news/valentines-day-gift-guide-2025-unique-custom-ideas-february-14\" title=\"Valentine's Day Gift Guide 2025: Unique & Custom Ideas for Friday, February 14\">Our 2025 Valentines Blog Post</a></p>",
             "text_style": "body"
           }
         },
         "button_TLFRbk": {
           "type": "button",
           "settings": {
-            "button_label": "Valentine’s Day Gifts – Made Just for Them",
+            "button_label": "Shop Valentine’s Day Gifts",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -89,6 +133,7 @@
         "button_TLFRbk"
       ],
       "settings": {
+        "image": "shopify://shop_images/love-letters-and-hearts.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -99,7 +144,7 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 8,
         "padding_bottom": 36
       }
     },
@@ -114,6 +159,7 @@
   },
   "order": [
     "image_banner_kFVdM7",
+    "rich_text_gm9c8E",
     "image_with_text_JCBAeL",
     "main"
   ]
