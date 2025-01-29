@@ -12,21 +12,7 @@
     "image_banner_kFVdM7": {
       "type": "image-banner",
       "blocks": {
-        "heading_pprNh7": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_yFLCmk": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_xHUnz9": {
+        "buttons_jw6mzD": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -36,14 +22,29 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "heading_pprNh7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Seasonal Gifting Occasions",
+            "heading_size": "h1"
+          }
+        },
+        "text_yFLCmk": {
+          "type": "text",
+          "settings": {
+            "text": "Find the perfect gift for every occasion, from Valentine’s Day and Mother’s Day to business events like Nurses Week and Employee Appreciation Day. Explore thoughtful ideas and inspiration tailored to every season.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
+        "buttons_jw6mzD",
         "heading_pprNh7",
-        "text_yFLCmk",
-        "buttons_xHUnz9"
+        "text_yFLCmk"
       ],
       "settings": {
+        "image": "shopify://shop_images/Key_Occasions_Update_12.20_HERO.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -54,6 +55,52 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "image_with_text_JCBAeL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hiYHQa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Valentines Day - Fri, Feb 14, 2025",
+            "heading_size": "h1"
+          }
+        },
+        "text_M9YccG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Celebrate love your way with unique, custom-branded gifts. Choose from our exclusive pre-made designs or create something truly personal using our easy online tool. Whether it’s a heartfelt keepsake or a one-of-a-kind creation, make this Valentine’s Day unforgettable with a gift that speaks from the heart.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_TLFRbk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Valentine’s Day Gifts – Made Just for Them",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hiYHQa",
+        "text_M9YccG",
+        "button_TLFRbk"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
@@ -67,6 +114,7 @@
   },
   "order": [
     "image_banner_kFVdM7",
+    "image_with_text_JCBAeL",
     "main"
   ]
 }
