@@ -12,17 +12,6 @@
     "image_banner_kFVdM7": {
       "type": "image-banner",
       "blocks": {
-        "buttons_jw6mzD": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "heading_pprNh7": {
           "type": "heading",
           "settings": {
@@ -39,7 +28,6 @@
         }
       },
       "block_order": [
-        "buttons_jw6mzD",
         "heading_pprNh7",
         "text_yFLCmk"
       ],
@@ -66,31 +54,10 @@
             "heading": "Valentines Day - Fri, Feb 14, 2025",
             "heading_size": "h1"
           }
-        },
-        "text_8LnQ3Q": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_RjmdGG": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "heading_NRDtB6",
-        "text_8LnQ3Q",
-        "button_RjmdGG"
+        "heading_NRDtB6"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -120,6 +87,7 @@
         },
         "button_TLFRbk": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Shop Valentine’s Day Gifts",
             "button_link": "",
@@ -148,6 +116,92 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_hp3Qfi": {
+      "type": "featured-product",
+      "blocks": {
+        "text_jgcLbV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_zgbKrf": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_tQh4r6": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Hdagwk": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_gqiwND": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_hFeLCD": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_DiJzgh": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_jgcLbV",
+        "title_zgbKrf",
+        "price_tQh4r6",
+        "variant_picker_Hdagwk",
+        "quantity_selector_gqiwND",
+        "buy_buttons_hFeLCD",
+        "share_DiJzgh"
+      ],
+      "settings": {
+        "product": "easy-monogramming-personalized-12oz-stainless-wine-tumbler-with-lid-valentines-day",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_XpzCHJ": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -161,6 +215,8 @@
     "image_banner_kFVdM7",
     "rich_text_gm9c8E",
     "image_with_text_JCBAeL",
+    "featured_product_hp3Qfi",
+    "featured_blog_XpzCHJ",
     "main"
   ]
 }
