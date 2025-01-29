@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "46c53b47-7f64-4cd6-8ea3-c1b04807f052": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "066e02bb-1a0f-462c-9f85-2294cfe6fdeb": {
           "type": "custom_liquid",
@@ -28,15 +35,13 @@
           }
         },
         "bbe5a2b4-ce77-47dd-aea4-714efe90015f": {
-          "type": "shopify:\/\/apps\/swatch-king-combined-listings\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+          "type": "shopify://apps/swatch-king/blocks/product-swatch-block/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -48,23 +53,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
-        },
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Item Desciption",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.description | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "d77d042a-7232-4ef3-9874-35307fe9f156": {
-          "type": "shopify:\/\/apps\/volumeboost-volume-discounts\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -75,8 +64,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -85,10 +73,9 @@
           }
         },
         "swatch_king_variants_options_product_swatch_block_bty3nY": {
-          "type": "shopify:\/\/apps\/swatch-king-combined-listings\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+          "type": "shopify://apps/swatch-king/blocks/product-swatch-block/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -100,8 +87,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "0f8a6a59-fee7-4c52-a6a2-329fb1b46810",
-        "d77d042a-7232-4ef3-9874-35307fe9f156",
         "buy_buttons",
         "description",
         "share",
@@ -149,9 +134,8 @@
       "type": "apps",
       "blocks": {
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
