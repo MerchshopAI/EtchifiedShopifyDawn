@@ -12,21 +12,21 @@
     "c6acf002-b479-4c22-b7ab-d1481f52517c": {
       "type": "slideshow",
       "blocks": {
-        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1": {
+        "slide_nPP3FC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/front_image_bf447a9e-911e-400c-a332-d7248ecca501.jpg",
-            "heading": "Make things personal.",
+            "image": "shopify://shop_images/YoureMyPersonName_LTM855_Pink_1.png",
+            "heading": "Gifting Made Sweet",
             "heading_size": "h1",
-            "subheading": "Designing and ordering customized items is a breeze.",
-            "button_label": "Design Personalized Drinkware Online",
-            "link": "shopify://collections/drinkware",
+            "subheading": "Give a One-of-a-Kind Gift from Etchified This Valentine’s Day!",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/valentines-day",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -45,6 +45,24 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ai9pc7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LCM217_Coral-PhotoRoom_3.png",
+            "heading": "Travel, Sip, Repeat",
+            "heading_size": "h0",
+            "subheading": "Check out the new 20oz Travel Mug",
+            "button_label": "Make Things Personal.",
+            "link": "shopify://products/polar-camel-20oz-travel-mug",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-24883e9d-f43b-4ca2-b0ea-c64a36ee472d",
             "text_alignment_mobile": "center"
           }
         },
@@ -67,49 +85,31 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_ai9pc7": {
+        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/LCM217_Coral-PhotoRoom_3.png",
-            "heading": "Travel, Sip, Repeat",
-            "heading_size": "h0",
-            "subheading": "Check out the new 20oz Travel Mug",
-            "button_label": "Make Things Personal.",
-            "link": "shopify://products/polar-camel-20oz-travel-mug",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-24883e9d-f43b-4ca2-b0ea-c64a36ee472d",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_nPP3FC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/YoureMyPersonName_LTM855_Pink_1.png",
-            "heading": "Gifting Made Sweet",
+            "image": "shopify://shop_images/front_image_bf447a9e-911e-400c-a332-d7248ecca501.jpg",
+            "heading": "Make things personal.",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Designing and ordering customized items is a breeze.",
+            "button_label": "Design Personalized Drinkware Online",
+            "link": "shopify://collections/drinkware",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
+            "box_align": "bottom-right",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1",
+        "slide_nPP3FC",
         "2b023f68-2a83-45e6-87b6-867d82dc1dad",
-        "slide_dqVyYx",
         "slide_ai9pc7",
-        "slide_nPP3FC"
+        "slide_dqVyYx",
+        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1"
       ],
       "settings": {
         "layout": "grid",
