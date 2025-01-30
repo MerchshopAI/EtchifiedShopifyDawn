@@ -85,22 +85,21 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-2": {
+        "slide_TMmqA9": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/LTM866_Yellow_YourLogoHere4-PhotoRoom_1.jpg",
-            "heading": "Easy Bulk Orders",
+            "image": "shopify://shop_images/YoureMyPersonName_LTM855_Pink.png",
+            "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "Place your order, send your logos,  and our professional art provides proofs for approval before decoration.",
-            "button_label": "Shop Wholesale",
-            "link": "shopify://collections/custom-tumblers-wholesale-pricing",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "right",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-2",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
@@ -110,7 +109,7 @@
         "2b023f68-2a83-45e6-87b6-867d82dc1dad",
         "slide_dqVyYx",
         "slide_ai9pc7",
-        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-2"
+        "slide_TMmqA9"
       ],
       "settings": {
         "layout": "grid",
