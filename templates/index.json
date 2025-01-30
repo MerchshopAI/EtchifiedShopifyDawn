@@ -20,7 +20,7 @@
             "heading_size": "h1",
             "subheading": "Give a One-of-a-Kind Gift from Etchified This Valentine’s Day!",
             "button_label": "Shop Now",
-            "link": "shopify://collections/valentines-day",
+            "link": "shopify://products/easy-monogramming-personalized-12oz-stainless-wine-tumbler-with-lid-valentines-day",
             "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": true,
@@ -341,6 +341,23 @@
         "padding_bottom": 36
       }
     },
+    "featured_blog_bg3mgQ": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "647bc727-d17d-4046-a06a-30a7bb69f352": {
       "type": "collage",
       "blocks": {
@@ -399,23 +416,6 @@
       "custom_css": [],
       "settings": {
         "include_margins": true
-      }
-    },
-    "featured_blog_bg3mgQ": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
