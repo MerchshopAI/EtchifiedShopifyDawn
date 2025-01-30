@@ -171,10 +171,11 @@
     },
     "featured_blog_XpzCHJ": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Get Insipiration from our Valentines Blog Posts",
         "heading_size": "h1",
-        "blog": "",
+        "blog": "news",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "",
