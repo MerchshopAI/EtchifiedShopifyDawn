@@ -231,7 +231,7 @@
         "text_GMjchA": {
           "type": "text",
           "settings": {
-            "text": "<p>Recognize the heartbeat of your company on <strong>Employee Appreciation Day</strong>—the most important occasion to show gratitude to the hardworking individuals who make your business thrive. From the dedicated employees who give their all to the outstanding team members who go above and beyond, this is the perfect day to express your appreciation. Celebrate their commitment, effort, and contributions with thoughtful gifts that make them feel truly valued!</p>",
+            "text": "<p>Recognize the heartbeat of your company on <strong>Employee Appreciation Day</strong>—the most important occasion to show gratitude to the hardworking individuals who make your business thrive. From the dedicated employees who give their all to the outstanding team members who go above and beyond, this is the perfect day to express your appreciation. Celebrate their commitment, effort, and contributions with thoughtful gifts that make them feel truly valued!<br/>Make your gifts even more meaningful by <strong>personalizing them with names, achievements, or milestones like 5 years of service</strong>. Customized, etchified gifts add an extra special touch, turning appreciation into a lasting memory. Celebrate their commitment, effort, and contributions with thoughtful, personalized gifts that make them feel truly valued!</p>",
             "text_style": "body"
           }
         },
