@@ -19,55 +19,6 @@
         "color_scheme": "background-1"
       }
     },
-    "image_banner_PWR9he": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_XPVymK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_3jRPjm": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_PhPTBR": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_XPVymK",
-        "text_3jRPjm",
-        "buttons_PhPTBR"
-      ],
-      "settings": {
-        "image": "{{ collection.image }}",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "featured_collection_tabs_3_ExCNAA": {
       "type": "featured-collection-tabs-3",
       "blocks": {
@@ -75,13 +26,13 @@
           "type": "tab",
           "settings": {
             "tab": "One-Click Wonders",
-            "collection": "{{ collection }}",
+            "collection": "valentines-day",
             "collection_show": 10,
             "products": [],
             "main_text": "<p>Great as they are - add to the cart for a super speedy checkout</p>",
             "button": "View all",
             "button_url": "",
-            "main_card_bg_color": "#F4F4F4"
+            "main_card_bg_color": "#ffeaea"
           }
         },
         "tab_AcHhyk": {
@@ -422,7 +373,6 @@
   },
   "order": [
     "banner",
-    "image_banner_PWR9he",
     "featured_collection_tabs_3_ExCNAA",
     "featured_collection_wBjt8n",
     "featured_collection_JU6kgd",
