@@ -26,7 +26,7 @@
           "type": "tab",
           "settings": {
             "tab": "One-Click Wonders",
-            "collection": "valentines-day",
+            "collection": "{{ collection.metafields.custom.etchified_originals.value }}",
             "collection_show": 10,
             "products": [],
             "main_text": "<p>Great as they are - add to the cart for a super speedy checkout</p>",
@@ -39,7 +39,7 @@
           "type": "tab",
           "settings": {
             "tab": "Easy Monogramming",
-            "collection": "",
+            "collection": "{{ collection.metafields.custom.easy_monongramming.value }}",
             "collection_show": 10,
             "products": [],
             "main_text": "<p>Super simple personalization. </p><p>Choose from one of our many designs and quickly add a name or message</p>",
@@ -52,7 +52,7 @@
           "type": "tab",
           "settings": {
             "tab": "Design Your Own",
-            "collection": "",
+            "collection": "{{ collection }}",
             "collection_show": 10,
             "products": [],
             "main_text": "<p>Fully Custom Designs</p><p>Upload a design, or choose from our hundreds of graphics</p>",
