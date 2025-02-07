@@ -18,6 +18,94 @@
         "color_scheme": "background-1"
       }
     },
+    "ss_circle_menu_CLybJE": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_YyDLAL": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/personalized-corkcicle-canteen-16-oz-water-bottle-etc-gmln-100483-100483-100-988846.jpg",
+            "bubble_text": "Water Bottles",
+            "bubble_link": "shopify://collections/water-bottles"
+          }
+        },
+        "image_UjKrjX": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/personalized-yeti-rambler-12-oz-jr-water-bottle-yramkid12seafoam-609017.jpg",
+            "bubble_text": "Kids",
+            "bubble_link": "shopify://collections/kids-1"
+          }
+        },
+        "image_PpKnWW": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/personalized-yeti-rambler-12-oz-355ml-colster-can-cooler-ycol12black-545176.jpg",
+            "bubble_text": "Beverage Holders",
+            "bubble_link": ""
+          }
+        },
+        "image_krw7Af": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/personalized-waffle-pattern-decanter-and-glasses-set-dcs401-369539.jpg",
+            "bubble_text": "Crystal and Glassware",
+            "bubble_link": "shopify://collections/glasswear"
+          }
+        },
+        "image_HpkmNU": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Drinkware_Accessories-Photoroom_1.png",
+            "bubble_text": "Drinkware Accessories",
+            "bubble_link": "shopify://collections/drinkware-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "image_YyDLAL",
+        "image_UjKrjX",
+        "image_PpKnWW",
+        "image_krw7Af",
+        "image_HpkmNU"
+      ],
+      "settings": {
+        "slider_width": 76,
+        "slider_gap": 66,
+        "slider_gap_mobile": 6,
+        "icon_size": 162,
+        "icon_size_mobile": 74,
+        "icon_space": 0,
+        "icon_space_mobile": 0,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#000000",
+        "icon_border_gradient": "",
+        "text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -58,6 +146,7 @@
   },
   "order": [
     "banner",
+    "ss_circle_menu_CLybJE",
     "product-grid",
     "1693398378938e5771"
   ]
