@@ -14,6 +14,7 @@
       "blocks": {
         "slide_nPP3FC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/YoureMyPersonName_LTM855_Pink_1.png",
             "heading": "Gifting Made Sweet",
