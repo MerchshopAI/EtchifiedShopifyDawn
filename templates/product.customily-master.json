@@ -144,11 +144,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1739285498f73704ea": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1693398513cc258c5a"
+    "1693398513cc258c5a",
+    "1739285498f73704ea"
   ]
 }
