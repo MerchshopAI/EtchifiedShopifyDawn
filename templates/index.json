@@ -31,6 +31,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/front_image_bf447a9e-911e-400c-a332-d7248ecca501.jpg",
+            "heading": "Make things personal.",
+            "heading_size": "h1",
+            "subheading": "Designing and ordering customized items is a breeze.",
+            "button_label": "Design Personalized Drinkware Online",
+            "link": "shopify://collections/drinkware",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "2b023f68-2a83-45e6-87b6-867d82dc1dad": {
           "type": "slide",
           "settings": {
@@ -85,32 +103,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/front_image_bf447a9e-911e-400c-a332-d7248ecca501.jpg",
-            "heading": "Make things personal.",
-            "heading_size": "h1",
-            "subheading": "Designing and ordering customized items is a breeze.",
-            "button_label": "Design Personalized Drinkware Online",
-            "link": "shopify://collections/drinkware",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_nPP3FC",
+        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1",
         "2b023f68-2a83-45e6-87b6-867d82dc1dad",
         "slide_ai9pc7",
-        "slide_dqVyYx",
-        "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1"
+        "slide_dqVyYx"
       ],
       "settings": {
         "layout": "grid",

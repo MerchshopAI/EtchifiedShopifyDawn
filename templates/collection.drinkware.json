@@ -21,6 +21,14 @@
     "ss_circle_menu_CLybJE": {
       "type": "ss-circle-menu",
       "blocks": {
+        "image_yFPjrw": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/personalized-stanley-quencher-h20-flowstate-tumbler-40-oz-1603-01frst-678328.jpg",
+            "bubble_text": "Tumblers",
+            "bubble_link": "shopify://collections/tumblers"
+          }
+        },
         "image_YyDLAL": {
           "type": "Image",
           "settings": {
@@ -63,6 +71,7 @@
         }
       },
       "block_order": [
+        "image_yFPjrw",
         "image_YyDLAL",
         "image_UjKrjX",
         "image_PpKnWW",
@@ -70,10 +79,10 @@
         "image_HpkmNU"
       ],
       "settings": {
-        "slider_width": 76,
-        "slider_gap": 66,
+        "slider_width": 100,
+        "slider_gap": 22,
         "slider_gap_mobile": 6,
-        "icon_size": 162,
+        "icon_size": 150,
         "icon_size_mobile": 74,
         "icon_space": 0,
         "icon_space_mobile": 0,
@@ -88,7 +97,7 @@
         "icon_border_color": "#000000",
         "icon_border_gradient": "",
         "text_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "border_gradient": "",
