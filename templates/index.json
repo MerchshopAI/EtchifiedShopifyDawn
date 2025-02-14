@@ -12,6 +12,24 @@
     "c6acf002-b479-4c22-b7ab-d1481f52517c": {
       "type": "slideshow",
       "blocks": {
+        "slide_FcBp7G": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ion-Plated_Collection_Notext-Photoroom.jpg",
+            "heading": "Ion-Plated Collection",
+            "heading_size": "h1",
+            "subheading": "New items for 2025",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/ion-plated",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_nPP3FC": {
           "type": "slide",
           "disabled": true,
@@ -84,33 +102,14 @@
             "color_scheme": "scheme-24883e9d-f43b-4ca2-b0ea-c64a36ee472d",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_dqVyYx": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Holiday-2024_Hero_688b6212-3265-4ee7-abdc-5d472c32f09f.jpg",
-            "heading": "Holiday-Ready Gifts, Right on Time",
-            "heading_size": "h2",
-            "subheading": "Made and shipped to arrive for your event—free of rush charges.",
-            "button_label": "Get Yours Now!",
-            "link": "shopify://collections/holiday-rush-collection",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_FcBp7G",
         "slide_nPP3FC",
         "template--16820904493312__c6acf002-b479-4c22-b7ab-d1481f52517c-slide-1",
         "2b023f68-2a83-45e6-87b6-867d82dc1dad",
-        "slide_ai9pc7",
-        "slide_dqVyYx"
+        "slide_ai9pc7"
       ],
       "settings": {
         "layout": "grid",
