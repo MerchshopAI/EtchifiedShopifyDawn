@@ -18,8 +18,209 @@
         "color_scheme": "background-1"
       }
     },
+    "image_banner_GgFWTL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HDcErt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrHwKz": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_9HHgCa": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HDcErt",
+        "text_HrHwKz",
+        "buttons_9HHgCa"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ss_scrolling_logo_cloud_bdTebx": {
+      "type": "ss-scrolling-logo-cloud",
+      "blocks": {
+        "slide_yrfD9d": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_Gr4Tyt": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_EqXUcd": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_6VQ44w": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_kNmPcm": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_9d9XDw": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_yrfD9d",
+        "slide_Gr4Tyt",
+        "slide_EqXUcd",
+        "slide_6VQ44w",
+        "slide_kNmPcm",
+        "slide_9d9XDw"
+      ],
+      "settings": {
+        "ss-title": "Trusted by",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 50,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 16,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 200,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "collection_list_3AHWTR": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_GJKRYx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "featured_collection_fNPXFE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags-totes"
+          }
+        },
+        "featured_collection_7WCB3z": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drinkware-merch-by-etchified"
+          }
+        },
+        "featured_collection_jM4DJj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "health-and-beauty"
+          }
+        },
+        "featured_collection_9bTyHV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-and-diy"
+          }
+        },
+        "featured_collection_fLkVxN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office"
+          }
+        },
+        "featured_collection_AjGeeA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoor-sport"
+          }
+        },
+        "featured_collection_Uy7yJk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "technology"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_GJKRYx",
+        "featured_collection_fNPXFE",
+        "featured_collection_7WCB3z",
+        "featured_collection_jM4DJj",
+        "featured_collection_9bTyHV",
+        "featured_collection_fLkVxN",
+        "featured_collection_AjGeeA",
+        "featured_collection_Uy7yJk"
+      ],
+      "settings": {
+        "title": "Merch by Etchified",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 50,
         "columns_desktop": 4,
@@ -54,11 +255,143 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "image_with_text_wn3hAe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qTYxm9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevating your Brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_njGHDb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We can add your corporate logo or other artwork to all of our products.<br/>Elevate your next event, gifting opportunity, swag, anniversary, wedding, and more.<br/></p><p>Let us know your requirements today!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xd3D9j": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us Now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qTYxm9",
+        "text_njGHDb",
+        "button_xd3D9j"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_bzKefF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_zLyzL7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Elevate Your Brand with Custom Logo Products",
+            "icon": "clipboard",
+            "row_content": "<p>We’re excited to offer a streamlined way to showcase your brand with high-quality custom products. Every business is unique, which is why we’ve developed a diverse range of customizable items designed to help you stand out in a competitive market. Unlike traditional personalization, our open upload system allows you to easily add your logo or custom designs to a variety of products—no design skills needed. If you've been searching for “branded products for my clients” but couldn’t find the right fit, now you can create exactly what you need with our simple customization tools.</p><p>One of the best parts? Low or no minimum order quantities. Whether you need just one customized item or a bulk order for an event, our flexible approach lets you order based on your business needs.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_peAPyw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Custom Branded Products for Any Industry",
+            "icon": "clipboard",
+            "row_content": "<p>Our logo-upload collection includes a wide range of products, including promotional merchandise, business essentials, and stationery, catering to businesses of all sizes. Whether you’re a startup looking for affordable branded products, a local business seeking a professional touch, or a well-established company refreshing its corporate gifts, we’ve got you covered.</p><p>We strive to be your go-to provider for high-quality, cost-effective promotional items. Whether you're looking for wholesale options, or industry-specific solutions, we’re here to support your brand.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6p6xJ6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Seamless Logo Application: We’ve Got the Right Process for You",
+            "icon": "clipboard",
+            "row_content": "<p>We offer a variety of advanced branding techniques, from laser engraving and embroidery to full-color printing and silk -screening.  Our expert team carefully tests each product to determine the best customization method, ensuring your brand looks polished and professional.</p><p>To make the process even smoother, our preview tool allows you to see how your design will appear before placing an order. We provide guidelines to help ensure optimal placement, so your logo and designs turn out exactly as intended. If you don’t see a specific product listed in our catalog, reach out—we’re happy to explore custom requests and find solutions that meet your needs.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ypxkJ4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Budget-Friendly Ways to Promote Your Brand",
+            "icon": "clipboard",
+            "row_content": "<p>Turn everyday business essentials into powerful branding opportunities. Whether you need promotional products for client appreciation, corporate events, or marketing campaigns, our growing selection includes everything from drinkware and apparel to stationery and packaging materials.</p><p>Popular items like water bottles, mugs, glassware, and hats are versatile and widely recognized as effective promotional tools. You can create a custom design for a special event, add a thank-you message for a charity fundraiser, or personalize giveaways for a conference. With low or no order minimums, you have the freedom to customize products for specific occasions or maintain a consistent brand image year-round.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9BYJbh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Strengthen Business Relationships with Branded Gifts",
+            "icon": "clipboard",
+            "row_content": "<p>Our curated selection of corporate gifts is ideal for recognizing employees, celebrating milestones, or showing appreciation to valued clients. Whether you're rewarding a top-performing employee, commemorating a business partnership, or sending a thoughtful thank-you gift, our custom branding options allow you to tailor each item for a more meaningful touch.</p><p>Branded gifts also serve as an excellent way to leave a lasting impression on customers. Small, cost-effective items—such as logo-printed candles, playing cards, or customized packaging inserts—can enhance customer loyalty and boost brand recognition. From small businesses to large corporations, we offer solutions to help you connect with your audience in a memorable way.</p><h3></h3>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VHz7jQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where to Find the Best Custom Products for Your Business",
+            "icon": "clipboard",
+            "row_content": "<p>If you’ve been searching for the perfect place to source high-quality branded products for your company, retail store, or online shop, we’re here to help. Our product selection is tailored to support various business models, including promotional giveaways, corporate branding, and resale opportunities.</p><p>For businesses exploring custom product dropshipping, our logo upload feature allows you to seamlessly offer personalized items without managing inventory. We handle the customization and fulfillment, so you can focus on growing your brand.</p><p>With our innovative approach to branded products, you can create high-quality, customized merchandise that strengthens your business presence—whether you need a single item or a large-scale order. Let’s bring your brand to life with premium, logo-customized products designed for success.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_zLyzL7",
+        "collapsible_row_peAPyw",
+        "collapsible_row_6p6xJ6",
+        "collapsible_row_ypxkJ4",
+        "collapsible_row_9BYJbh",
+        "collapsible_row_VHz7jQ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Elevate your brand with Etchified",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
+    "image_banner_GgFWTL",
+    "ss_scrolling_logo_cloud_bdTebx",
+    "collection_list_3AHWTR",
     "product-grid",
-    "1693398378938e5771"
+    "1693398378938e5771",
+    "image_with_text_wn3hAe",
+    "collapsible_content_bzKefF"
   ]
 }
