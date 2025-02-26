@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "show_collection_description": true,
@@ -23,6 +24,7 @@
       "blocks": {
         "heading_HDcErt": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
@@ -30,6 +32,7 @@
         },
         "text_HrHwKz": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -37,6 +40,7 @@
         },
         "buttons_9HHgCa": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
@@ -53,9 +57,10 @@
         "buttons_9HHgCa"
       ],
       "settings": {
+        "image": "shopify://shop_images/LTM866_Yellow_YourLogoHere4-PhotoRoom_1_a35e0400-a0f2-43c5-b1dc-9ae40d9288fd.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -239,23 +244,6 @@
         "padding_bottom": 36
       }
     },
-    "1693398378938e5771": {
-      "type": "apps",
-      "blocks": {
-        "3e51b41d-8ee2-497e-8734-359b7f7c6ca0": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1800
-          }
-        }
-      },
-      "block_order": [
-        "3e51b41d-8ee2-497e-8734-359b7f7c6ca0"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "image_with_text_wn3hAe": {
       "type": "image-with-text",
       "blocks": {
@@ -382,6 +370,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1693398378938e5771": {
+      "type": "apps",
+      "blocks": {
+        "3e51b41d-8ee2-497e-8734-359b7f7c6ca0": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1800
+          }
+        }
+      },
+      "block_order": [
+        "3e51b41d-8ee2-497e-8734-359b7f7c6ca0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -390,8 +395,8 @@
     "ss_scrolling_logo_cloud_bdTebx",
     "collection_list_3AHWTR",
     "product-grid",
-    "1693398378938e5771",
     "image_with_text_wn3hAe",
-    "collapsible_content_bzKefF"
+    "collapsible_content_bzKefF",
+    "1693398378938e5771"
   ]
 }
