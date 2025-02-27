@@ -211,6 +211,12 @@
             "collection": "apparel"
           }
         },
+        "featured_collection_Uy7yJk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "technology"
+          }
+        },
         "featured_collection_fNPXFE": {
           "type": "featured_collection",
           "settings": {
@@ -246,26 +252,20 @@
           "settings": {
             "collection": "outdoor-sport"
           }
-        },
-        "featured_collection_Uy7yJk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "technology"
-          }
         }
       },
       "block_order": [
         "featured_collection_GJKRYx",
+        "featured_collection_Uy7yJk",
         "featured_collection_fNPXFE",
         "featured_collection_7WCB3z",
         "featured_collection_jM4DJj",
         "featured_collection_9bTyHV",
         "featured_collection_fLkVxN",
-        "featured_collection_AjGeeA",
-        "featured_collection_Uy7yJk"
+        "featured_collection_AjGeeA"
       ],
       "settings": {
-        "title": "Merch by Etchified",
+        "title": "Top Products for your Business",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -330,6 +330,7 @@
         "button_xd3D9j"
       ],
       "settings": {
+        "image": "shopify://shop_images/business-meeting-over-coffee.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
