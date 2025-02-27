@@ -76,61 +76,115 @@
         "slide_yrfD9d": {
           "type": "slide",
           "settings": {
-            "link": ""
-          }
-        },
-        "slide_Gr4Tyt": {
-          "type": "slide",
-          "settings": {
+            "image": "shopify://shop_images/31ILphNpNmL.jpg",
             "link": ""
           }
         },
         "slide_EqXUcd": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Canadian_Tire_logo_2022.png",
             "link": ""
           }
         },
-        "slide_6VQ44w": {
+        "slide_Gr4Tyt": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Land-OLakes-Logo.png",
+            "link": ""
+          }
+        },
+        "slide_FCyw9P": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/channels4_profile.jpg",
             "link": ""
           }
         },
         "slide_kNmPcm": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/lululemon_fy23_logo360x360.png",
+            "link": ""
+          }
+        },
+        "slide_MNNCdL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ExxonMobil-Logo.wine.png",
+            "link": ""
+          }
+        },
+        "slide_NRdNay": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RCMP_logo_colour.png",
             "link": ""
           }
         },
         "slide_9d9XDw": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/logo_cross_screen_blk.png",
+            "link": ""
+          }
+        },
+        "slide_6VQ44w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Deloitte_svg.png",
+            "link": ""
+          }
+        },
+        "slide_znk8Pi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/robinhood-brand-logo-1.jpg",
+            "link": ""
+          }
+        },
+        "slide_PfctBn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Samsung_Orig_Wordmark_BLACK_RGB.png",
+            "link": ""
+          }
+        },
+        "slide_UDYEcH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/General_Electric_logo.svg",
             "link": ""
           }
         }
       },
       "block_order": [
         "slide_yrfD9d",
-        "slide_Gr4Tyt",
         "slide_EqXUcd",
-        "slide_6VQ44w",
+        "slide_Gr4Tyt",
+        "slide_FCyw9P",
         "slide_kNmPcm",
-        "slide_9d9XDw"
+        "slide_MNNCdL",
+        "slide_NRdNay",
+        "slide_9d9XDw",
+        "slide_6VQ44w",
+        "slide_znk8Pi",
+        "slide_PfctBn",
+        "slide_UDYEcH"
       ],
       "settings": {
         "ss-title": "Trusted by",
         "heading_custom": false,
         "heading_font": "assistant_n4",
-        "header_size": 30,
+        "header_size": 36,
         "header_align": "center",
-        "scrolling_velocity": 50,
+        "scrolling_velocity": 65,
         "pause_hover": false,
         "shadow": false,
         "sliders_mt": 16,
         "logo_padding_top": 0,
         "logo_padding_bottom": 0,
-        "slider_gap": 30,
+        "slider_gap": 34,
         "slider_gap_mobile": 30,
         "slider_direction": "left",
         "icon_width": 200,
