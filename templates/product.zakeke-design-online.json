@@ -44,10 +44,6 @@
             "custom_liquid": "<button id=\"zakeke-configurator\" class=\"product-form__submit button button--full-width button--secondary\">\n  <span>Design Now</span>\n</button>\n<script>\n  document.querySelector('#zakeke-configurator').addEventListener('click', function (e) {\n    e.preventDefault();\n    \n    // Get the selected variant ID\n    let variantId = document.querySelector('select[name=id], input[name=id]').value;\n\n    // Check if variant is selected\n    if (!variantId) {\n      alert('Please select a variant before proceeding.');\n      return;\n    }\n\n    let rootUrl = '{{ routes.root_url }}';\n    let productHandle = '{{ product.handle }}';\n    if (rootUrl !== '/') {\n      rootUrl = rootUrl + '/';\n    }\n\n    // Conditional behavior based on screen width\n    if (window.innerWidth < 768) { \n      // Mobile behavior (redirects to the old Zakeke configurator URL)\n      window.location.href = rootUrl + 'apps/zakeke/?pid={{ product.id }}&id=' + variantId;\n    } else {\n      // Desktop behavior (redirects to the same product page with ?view=customizer)\n      window.location.href = `${rootUrl}products/${productHandle}?variant=${variantId}&view=customizer`;\n    }\n  });\n</script>"
           }
         },
-        "discount_ninja_discountninja_app_blocks_product_banner_WP3VE7": {
-          "type": "shopify://apps/discount-ninja/blocks/discountninja-app-blocks-product-banner/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "disabled": true,
@@ -94,7 +90,6 @@
         "price",
         "variant_picker",
         "41e07029-718d-4729-a821-314a2d1e34ce",
-        "discount_ninja_discountninja_app_blocks_product_banner_WP3VE7",
         "buy_buttons",
         "description",
         "complementary_YhGd4V",
