@@ -45,6 +45,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "globo_product_options_variant_app_block_HCVkP9": {
+          "type": "shopify://apps/globo-product-options-variant/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+          "settings": {}
+        },
         "buy_buttons_eTrnL6": {
           "type": "buy_buttons",
           "settings": {
@@ -95,6 +99,7 @@
         "price",
         "easify_options_easify_product_options_p6PfdA",
         "quantity_selector",
+        "globo_product_options_variant_app_block_HCVkP9",
         "buy_buttons_eTrnL6",
         "variant_picker",
         "discount_ninja_discountninja_app_blocks_product_banner_pzMNap",
@@ -145,7 +150,10 @@
       "blocks": {
         "2ce4debc-70c4-45de-a80f-75e5e70fa847": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
