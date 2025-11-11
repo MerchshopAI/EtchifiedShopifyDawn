@@ -1,3 +1,6 @@
+{% comment %}
+  
+
 {% assign total_price = cart.total_price %}
 {% for item in cart.items %}
 	{% assign customization_price = item.properties._configurationPrice | default: 0 | times: item.quantity %}
@@ -5,4 +8,7 @@
 		{% assign total_price = total_price | plus: customization_price %}
 	{% endif %}
 {% endfor %}
+
+{% endcomment %}
+ 
 {{ total_price | money_with_currency }}

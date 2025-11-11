@@ -1,6 +1,34 @@
+
+{% comment %}
+  
+
 {% assign customization_price = item.properties._configurationPrice | default: 0 | times: item.quantity %}
 {% if customization_price > 0 %}
 	{{ line_price | plus: customization_price | money }}
 {% else %}
 	{{ line_price | money }}
 {% endif %}
+{% endcomment %}
+
+{%- assign customization_unit_price = item.properties._configurationPrice | default: 0 | plus: 0 -%}
+{%- assign customization_total = customization_unit_price | times: item.quantity -%}
+
+<span class="zakeke-line-price-base">
+  {{ line_price | money }}
+</span>
+
+{%- if customization_total > 0 -%}
+  <div class="zakeke-line-price-customization">
+    <span class="zakeke-line-price-label">
+      Second side engraving:
+    </span>
+    <span class="zakeke-line-price-value">
+      {{ customization_total | money }}
+      {%- if item.quantity > 1 -%}
+        <span class="zakeke-line-price-note">
+          ({{ customization_unit_price | money }} × {{ item.quantity }})
+        </span>
+      {%- endif -%}
+    </span>
+  </div>
+{%- endif -%}
