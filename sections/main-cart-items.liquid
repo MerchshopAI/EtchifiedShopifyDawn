@@ -303,12 +303,16 @@
                             </a>
                           </cart-remove-button>
                         </div>
+                        {% comment %}
+                          
                         
                        <div class="cart__checkout-button">
     <button onclick="window.location.reload();" class="button button--primary">
         Refresh Cart
     </button>
+    
 </div>
+{% endcomment %}
                         {%- if has_qty_rules or has_vol_pricing -%}
                           <button
                             type="button"
