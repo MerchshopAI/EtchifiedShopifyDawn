@@ -79,6 +79,15 @@
 
               <tbody>
                 {%- for item in cart.items -%}
+
+                  {% comment %} This block of code is for Zakeke testing {% endcomment %}
+
+                  {%- assign is_customization_item = false -%}
+{%- if item.product.handle == 'customization-price' -%}
+  {%- assign is_customization_item = true -%}
+{%- endif -%}
+
+
                   <tr  data-hulkapps-lineitem class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                     <td class="cart-item__media">
                       {% if item.image %}
