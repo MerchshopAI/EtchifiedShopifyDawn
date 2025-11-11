@@ -86,6 +86,42 @@
                   </button>
                 </noscript>
 
+{%- assign customization_total = 0 -%}
+{%- for item in cart.items -%}
+  {%- assign customization_unit_price = item.properties._configurationPrice | default: 0 | plus: 0 -%}
+  {%- assign line_customization_total = customization_unit_price | times: item.quantity -%}
+  {%- assign customization_total = customization_total | plus: line_customization_total -%}
+{%- endfor -%}
+
+<div class="totals">
+  <div class="totals__row">
+    <span class="totals__subtotal-label">
+      Subtotal
+    </span>
+    <span class="totals__subtotal-value">
+      {{ cart.total_price | money_with_currency }}
+    </span>
+  </div>
+
+  {%- if customization_total > 0 -%}
+    <div class="totals__row zakeke-customization-row">
+      <span class="totals__label">
+        Customization (second side engraving)
+      </span>
+      <span class="totals__value">
+        {{ customization_total | money_with_currency }}
+      </span>
+    </div>
+  {%- endif -%}
+
+  {%- comment -%}
+    Discount Ninja will likely inject/update rows after this.
+  {%- endcomment -%}
+</div>
+
+
+
+
                 <button
                   type="submit"
                   id="checkout"
