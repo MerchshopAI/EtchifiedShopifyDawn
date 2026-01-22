@@ -16,57 +16,6 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_kYAmPz": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_RYFYTk": {
-          "type": "heading",
-          "source": "{{ shop.metaobjects.customer_brand[\"customer-brand-rasd9t4l\"] }}",
-          "settings": {
-            "heading": "One Color Laser",
-            "heading_size": "h1"
-          }
-        },
-        "text_b4paGP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This is how your logo will look laser engraved</p>",
-            "text_style": "body"
-          }
-        },
-        "button_EFGhqT": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_RYFYTk",
-        "text_b4paGP",
-        "button_EFGhqT"
-      ],
-      "custom_css": [
-        "img {max-width: 300px; height: auto; display: block; margin: 0 auto;}"
-      ],
-      "settings": {
-        "image": "{{ shop.metaobjects.customer_brand[\"customer-brand-rasd9t4l\"].one_color_laser.value }}",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_VNtFLW": {
       "type": "custom-liquid",
       "custom_css": [
@@ -79,10 +28,11 @@
         "padding_bottom": 52
       }
     },
-    "custom_liquid_ykcTig": {
+    "custom_liquid_PRQr7i": {
       "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<form id=\"file-upload-form\">\n  <input type=\"file\" id=\"customer-file\" accept=\"image/*\" />\n  <button type=\"submit\">Upload</button>\n</form>\n\n<script>\n  document.getElementById('file-upload-form').addEventListener('submit', async (event) => {\n    event.preventDefault();\n    const fileInput = document.getElementById('customer-file');\n    if (fileInput.files.length > 0) {\n      const file = fileInput.files[0];\n\n      // Upload file to Shopify or external storage\n      const fileURL = await uploadFile(file);\n\n      // Call your custom app to update the metaobject\n      await updateMetaobject(fileURL);\n\n      alert('File uploaded and metaobject updated!');\n    } else {\n      alert('Please select a file to upload.');\n    }\n  });\n\n  async function uploadFile(file) {\n    // Add logic to upload file to Shopify or external service\n    return 'https://cdn.shopify.com/files/example-uploaded-file.png'; // Replace with actual uploaded file URL\n  }\n\n  async function updateMetaobject(fileURL) {\n    // Call your custom app to update the Shopify metaobject\n    console.log('Updating metaobject with URL:', fileURL);\n    // Add logic to send fileURL to your app or Shopify API\n  }\n</script>",
+        "custom_liquid": "{% if customer %}\n  <pre style=\"white-space: pre-wrap;\">\n    {{ customer.metafields.custom.full_color_print.type }}\n    {{ customer.metafields.custom.full_color_print | json }}\n    {{ customer.metafields.custom.full_color_print.value | json }}\n  </pre>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -91,8 +41,7 @@
   },
   "order": [
     "main",
-    "image_with_text_kYAmPz",
     "custom_liquid_VNtFLW",
-    "custom_liquid_ykcTig"
+    "custom_liquid_PRQr7i"
   ]
 }
